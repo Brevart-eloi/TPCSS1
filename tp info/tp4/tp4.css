@@ -1,4 +1,14 @@
 #bdcyan {
     color: aqua;
-    text-size-adjust: 20px;
+    font-size: 20px;
+  }
+  #bdrouge {
+    color: rgb(255, 17, 0);
+    font-size: 30px;
+    text-align: left;
+  }
+  #bdbleu {
+    color: rgb(10, 26, 247);
+    font-size: 20px;
+    
   }

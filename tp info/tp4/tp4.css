@@ -1,0 +1,16 @@
+.green {
+    color: rgba(0, 128, 0, 0.795);
+}
+.red {
+    color: rgba(238, 11, 11, 0.582);
+}
+.blue {
+    color: rgb(47, 91, 235);
+}
+.backgroundblue {
+    background: rgb(111, 241, 155);
+    width: 256px; height: 923.778px;
+}
+.allback {
+    background: rgb(137, 224, 191); 
+}

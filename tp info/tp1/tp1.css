@@ -5,7 +5,7 @@ cyan;
   border:none;
   padding: 0;
   margin:0;
-  height: 50px;
+  height: 80px;
 }
 #bdjaune {
   background-color: 
@@ -14,11 +14,11 @@ yellow;
   border:none;
   padding: 0;
   margin:0;
-  height: 500px;
+  height: 700px;
 }
 #bdvert {
 background-color: 
 rgb(36, 196, 129);
   text-align: center;
-  padding: 1px;
+  padding: 5px;
 }

@@ -1,29 +1,29 @@
 
   #bdcyan {
     background-color: 
-    rgb(7, 185, 255);
+    rgb(152, 222, 250);
       text-align: center;
       padding: 1px;
     }
   #bdjaune {
     margin-left: 12%;
     background-color: 
-    rgb(238, 234, 11);
+    rgb(217, 214, 7);
       text-align: center;
-      padding: 8%;
+      padding: 5%;
     }
   #bdvert {
     background-color: 
-    rgb(36, 196, 129);
+    rgb(45, 145, 5);
       text-align: center;
       padding: 1px;
     }
     #bdrose {
       background-color: 
-      rgb(248, 8, 168);
+      rgb(111, 7, 76);
       text-align: center;
       padding: 1px;
       position:absolute;
-      height: 668px;
+      height: 560px;
       width: 12%;
       }

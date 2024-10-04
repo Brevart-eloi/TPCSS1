@@ -22,32 +22,32 @@ body {
 
 .bandeau {
     grid-area: bandeau;
-    background-color: cyan;
+    background-color: rgb(147, 239, 239);
     padding: 20px;
     text-align: center;
 }
 
 .menu-haut {
     grid-area: menuhaut;
-    background-color: lightgreen;
+    background-color: green;
     padding: 20px;
 }
 
 .menu-bas {
     grid-area: menubas;
-    background-color: lightpink;
+    background-color: rgb(235, 11, 48);
     padding: 20px;
 }
 
 .contenu {
     grid-area: contenu;
-    background-color: yellow;
+    background-color: rgb(255, 255, 0);
     width: 100%;
 }
 
 .bloc-news {
     float: right;
-    background-color: orange;
+    background-color: rgb(83, 56, 6);
     padding: 20px;
     height: 150px;
     width: 150px;

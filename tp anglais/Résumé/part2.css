@@ -1,16 +1,20 @@
 .green {
-    color: rgba(0, 128, 0, 0.795);
+    color: rgba(0, 128, 0, 0.973);
+    font-family: 'Times New Roman', Times, serif;
 }
-.red {
-    color: rgba(238, 11, 11, 0.582);
+.black {
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
 }
-.blue {
-    color: rgb(47, 91, 235);
-}
+
 .backgroundblue {
-    background: rgb(111, 241, 155);
-    width: 256px; height: 923.778px;
+    background: rgb(96, 208, 253);
+    width: 256px; 
+    height: 1000px;
+    position: absolute;
+    right: 565px;
+    bottom: -92px;
 }
 .allback {
-    background: rgb(137, 224, 191); 
+    background: rgb(243, 243, 243); 
 }

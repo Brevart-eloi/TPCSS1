@@ -77,8 +77,8 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #64a19d;
-  --bs-link-hover-color: #50817e;
+  --bs-link-color: #ffffff;
+  --bs-link-hover-color: #a2d1ce;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #faf4e0;
 }
@@ -8245,11 +8245,6 @@ textarea.form-control-lg {
   color: rgba(0, 0, 0, 0.5) !important;
 }
 
-.text-white-50 {
-  --bs-text-opacity: 1;
-  color: rgba(255, 255, 255, 0.5) !important;
-}
-
 .text-reset {
   --bs-text-opacity: 1;
   color: inherit !important;
@@ -11200,4 +11195,11 @@ body {
 
 .footer {
   padding: 5rem 0;
+}
+
+.text-degrade {
+    background: linear-gradient(to bottom, white, transparent);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
 }

@@ -72,9 +72,8 @@
                             <!-- has successfully submitted-->
                             <div class="d-none" id="submitSuccessMessage">
                                 <div class="text-center mb-3 mt-2 text-white">
-                                    <div class="fw-bolder">Form submission successful!</div>
+                                    <div class="fw-bolder">Envoie effectuer!</div>
                                     To activate this form, sign up at
-                                    <br />
                                     <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
                                 </div>
                             </div>
@@ -98,7 +97,11 @@
                                 <i class="fas fa-map-marked-alt text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Adresse</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">15 rue Laurendeau</div>
+                                <div class="small text-black">
+                                    <a><p class="my-0">France</p>
+                                    <p class="my-0">Amiens</p>
+                                    15 rue Laurendeau</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -108,7 +111,7 @@
                                 <i class="fas fa-envelope text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Email</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50"><a href="#!">eloi.brevart@gmail.com</a></div>
+                                <div class="small text-black">eloi.brevart@gmail.com</div>
                             </div>
                         </div>
                     </div>
@@ -118,7 +121,7 @@
                                 <i class="fas fa-mobile-alt text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">TEL</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">07 81 85 02 78</div>
+                                <div class="small text-black">07 81 85 02 78</div>
                             </div>
                         </div>
                     </div>
@@ -126,7 +129,7 @@
             </div>
         </section>
         <!-- Footer-->
-        <footer class="footer bg-black small text-center text-white"><div class="container px-4 px-lg-5"> My Website 2024 de Eloi brevart</div></footer>
+        <footer class="footer bg-black small text-center text-white"><div class="container px-4 px-lg-5"> My Website 2024 by Eloi brevart</div></footer>
         <!-- Bootstrap core JS-->
         <!-- Core theme JS-->
         

@@ -1,19 +1,19 @@
-.green {
-    color: rgba(0, 128, 0, 0.973);
-    font-family: 'Times New Roman', Times, serif;
+.blue {
+    color: rgba(17, 63, 133, 0.719);
+    font-family: 'Barlow Condensed', sans-serif;
 }
 .black {
     color: rgb(0, 0, 0);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Barlow Condensed', sans-serif;
 }
 
 .backgroundblue {
     background: rgb(96, 208, 253);
-    width: 256px; 
-    height: 1000px;
+    width: 25%; 
+    height: 110%;
     position: absolute;
-    position: left;
-    bottom: -92px;
+    left: 0%;
+    top: 0%;
 }
 .allback {
     background: rgb(243, 243, 243); 
@@ -21,5 +21,9 @@
 
 .photo {
 
+    text-align: center;
+}
+
+.text-center {
     text-align: center;
 }

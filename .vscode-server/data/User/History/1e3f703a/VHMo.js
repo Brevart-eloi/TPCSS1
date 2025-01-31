@@ -1,0 +1,7 @@
+function ModifText(letext) {
+    alert("je vais modifier la div")
+    
+}
+ModifText("Hello");
+const div = document.getElementById('Madivnum1');
+div.textContent = 'Nouveau texte';

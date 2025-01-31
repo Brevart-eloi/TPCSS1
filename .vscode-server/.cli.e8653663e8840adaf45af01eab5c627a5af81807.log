@@ -1,0 +1,6 @@
+Listening on 127.0.0.1:39851
+[2024-11-15 08:37:42] info Disposed of connection to running server.
+looking for token 6a86a5d4-1be2-4e2d-b507-747bbf7bccaf, got Some("6a86a5d4-1be2-4e2d-b507-747bbf7bccaf")
+[2024-11-15 08:37:42] info Checking /home/debian/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/log.txt and /home/debian/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/pid.txt for a running server...
+[2024-11-15 08:37:42] info Found running server (pid=21282)
+[2024-11-15 10:33:48] info Disposed of connection to running server.

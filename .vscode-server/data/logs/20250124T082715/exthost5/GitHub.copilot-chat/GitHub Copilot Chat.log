@@ -1,0 +1,26 @@
+2025-01-24 09:13:01.569 [info] Can't use the Electron fetcher in this environment.
+2025-01-24 09:13:01.569 [info] Using the Node fetch fetcher.
+2025-01-24 09:13:01.569 [info] Initializing Git extension service.
+2025-01-24 09:13:01.569 [info] Successfully activated the vscode.git extension.
+2025-01-24 09:13:01.569 [info] Enablement state of the vscode.git extension: true.
+2025-01-24 09:13:01.569 [info] Successfully registered Git commit message provider.
+2025-01-24 09:13:02.917 [info] Logged in as Brevart-eloi
+2025-01-24 09:13:04.175 [info] Got Copilot token for Brevart-eloi
+2025-01-24 09:13:04.724 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-01-24 09:13:04.724 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-01-24 09:13:04.759 [info] Registering default platform agent...
+2025-01-24 09:13:05.243 [info] Fetched model metadata in 1042ms 1970b0cc-78e1-4cfc-9f63-16e914f620d2
+2025-01-24 09:13:05.250 [info] activationBlocker from 'languageModelAccess' took for 3027ms
+2025-01-24 09:35:27.146 [info] Fetched model metadata in 240509ms 5c6580d1-4d96-49e9-9fc8-206b8af57670
+2025-01-24 09:41:26.664 [info] Logged in as Brevart-eloi
+2025-01-24 09:41:27.496 [info] Got Copilot token for Brevart-eloi
+2025-01-24 09:44:03.692 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-01-24 10:06:27.308 [info] Fetched model metadata in 240620ms 75fe5926-c4f6-49e2-aaaa-6512ecb52c3a
+2025-01-24 10:10:26.701 [info] Logged in as Brevart-eloi
+2025-01-24 10:10:27.632 [info] Got Copilot token for Brevart-eloi
+2025-01-24 10:18:26.750 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-01-24 10:26:27.225 [info] Fetched model metadata in 240513ms 7400fa57-9002-4a8a-b2c4-d92967fcb194
+2025-01-24 10:39:26.731 [info] Logged in as Brevart-eloi
+2025-01-24 10:39:27.510 [info] Got Copilot token for Brevart-eloi
+2025-01-24 10:47:26.766 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-01-24 10:51:27.249 [info] Fetched model metadata in 240482ms 1c5ad7e7-a4b7-4475-93b1-2892a4861738

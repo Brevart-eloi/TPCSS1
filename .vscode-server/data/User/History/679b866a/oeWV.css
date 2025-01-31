@@ -1,0 +1,19 @@
+table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+
+  td {
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 15px;
+    color: green;
+  }
+
+  #tableau-milieu td {
+    color: blue;
+  }
+
+  .phrase-separatrice {
+    color: red;
+  }

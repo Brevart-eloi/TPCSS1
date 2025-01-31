@@ -1,0 +1,53 @@
+2025-01-29 15:11:04.596 [info] [main] Log level: Info
+2025-01-29 15:11:04.596 [info] [main] Validating found git in: "git"
+2025-01-29 15:11:04.596 [info] [main] Using git "2.30.2" from "git"
+2025-01-29 15:11:04.597 [info] [Model][doInitialScan] Initial repository scan started
+2025-01-29 15:11:04.597 [info] > git rev-parse --show-toplevel [2258ms]
+2025-01-29 15:11:04.597 [info] > git rev-parse --git-dir --git-common-dir [133ms]
+2025-01-29 15:11:04.597 [info] [Model][openRepository] Opened repository: /var/www/html/TPCSS1
+2025-01-29 15:11:04.597 [info] > git rev-parse --show-toplevel [162ms]
+2025-01-29 15:11:04.597 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-01-29 15:11:04.598 [info] > git config --get commit.template [184ms]
+2025-01-29 15:11:05.092 [info] > git check-ignore -v -z --stdin [50ms]
+2025-01-29 15:11:05.106 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [349ms]
+2025-01-29 15:11:05.989 [info] > git ls-files --stage -- /var/www/html/TPCSS1/tp info/tp1/tp1.js [37ms]
+2025-01-29 15:11:06.094 [info] > git show --textconv :tp info/tp1/tp1.js [151ms]
+2025-01-29 15:11:06.094 [info] > git status -z -uall [89ms]
+2025-01-29 15:11:06.095 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [78ms]
+2025-01-29 15:11:06.126 [info] > git cat-file -s bdd3a51e8bcf9acd2d2eef79cb5cc733e3e9580f [133ms]
+2025-01-29 15:11:06.154 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [43ms]
+2025-01-29 15:11:06.190 [info] > git config --get commit.template [56ms]
+2025-01-29 15:11:06.365 [info] > git config --local branch.main.vscode-merge-base [204ms]
+2025-01-29 15:11:06.365 [warning] [Git][config] git config failed: Failed to execute git
+2025-01-29 15:11:06.634 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [252ms]
+2025-01-29 15:11:07.068 [info] > git status -z -uall [120ms]
+2025-01-29 15:11:07.070 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [112ms]
+2025-01-29 15:11:07.108 [info] > git reflog main --grep-reflog=branch: Created from *. [735ms]
+2025-01-29 15:11:07.307 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [210ms]
+2025-01-29 15:11:07.369 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [249ms]
+2025-01-29 15:11:07.370 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-01-29 15:11:07.370 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-01-29 15:11:07.410 [info] > git merge-base refs/heads/main refs/remotes/Origine/main [34ms]
+2025-01-29 15:11:07.419 [info] > git config --local branch.main.vscode-merge-base [107ms]
+2025-01-29 15:11:07.419 [warning] [Git][config] git config failed: Failed to execute git
+2025-01-29 15:11:07.695 [info] > git diff --name-status -z --diff-filter=ADMR e820efb32d5933e1ea774e1268cca360065bac2d...refs/remotes/Origine/main [276ms]
+2025-01-29 15:11:08.207 [info] > git reflog main --grep-reflog=branch: Created from *. [782ms]
+2025-01-29 15:11:08.724 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [458ms]
+2025-01-29 15:11:08.736 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-01-29 15:11:08.736 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-01-29 15:17:20.254 [info] > git ls-files --stage -- /var/www/html/TPCSS1/tp info/tp1/tp1.js [38ms]
+2025-01-29 15:17:20.284 [info] > git fetch [2598ms]
+2025-01-29 15:17:20.326 [info] > git cat-file -s bdd3a51e8bcf9acd2d2eef79cb5cc733e3e9580f [42ms]
+2025-01-29 15:17:20.330 [info] > git config --get commit.template [9ms]
+2025-01-29 15:17:20.348 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2025-01-29 15:17:20.383 [info] > git show --textconv :tp info/tp1/tp1.js [38ms]
+2025-01-29 15:17:20.387 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [16ms]
+2025-01-29 15:17:20.497 [info] > git blame --root --incremental e820efb32d5933e1ea774e1268cca360065bac2d -- /var/www/html/TPCSS1/tp info/tp1/tp1.js [374ms]
+2025-01-29 15:17:20.524 [info] > git status -z -uall [161ms]
+2025-01-29 15:17:21.469 [info] > git ls-files --stage -- /var/www/html/TPCSS1/tp info/tp1/tp1.js [7ms]
+2025-01-29 15:17:21.484 [info] > git cat-file -s bdd3a51e8bcf9acd2d2eef79cb5cc733e3e9580f [7ms]
+2025-01-29 15:17:21.500 [info] > git show --textconv :tp info/tp1/tp1.js [4ms]
+2025-01-29 15:18:02.953 [info] > git config --get commit.template [136ms]
+2025-01-29 15:18:02.977 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [135ms]
+2025-01-29 15:18:03.016 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [17ms]
+2025-01-29 15:18:03.049 [info] > git status -z -uall [65ms]

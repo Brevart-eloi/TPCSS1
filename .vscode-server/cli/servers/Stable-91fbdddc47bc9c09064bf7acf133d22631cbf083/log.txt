@@ -1,0 +1,57 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to /tmp/code-10157635-8259-4f1c-9350-1cf740d85a71
+Extension host agent listening on /tmp/code-10157635-8259-4f1c-9350-1cf740d85a71
+
+[09:32:25] 
+
+
+
+
+[09:32:25] Extension host agent started.
+[09:32:25] [<unknown>][0f6f5e20][ManagementConnection] New connection established.
+[09:32:25] [<unknown>][272e569d][ExtensionHostConnection] New connection established.
+[09:32:26] [<unknown>][272e569d][ExtensionHostConnection] <8804> Launched Extension Host Process.
+[09:32:40] [<unknown>][0f6f5e20][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[09:32:48] [<unknown>][272e569d][ExtensionHostConnection] <8804> Extension Host Process exited with code: 0, signal: null.
+Cancelling previous shutdown timeout
+[09:32:48] Cancelling previous shutdown timeout
+Last EH closed, waiting before shutting down
+[09:32:48] Last EH closed, waiting before shutting down
+[09:32:54] [<unknown>][dcca85e9][ManagementConnection] New connection established.
+[09:32:54] [<unknown>][563df424][ExtensionHostConnection] New connection established.
+[09:32:54] [<unknown>][563df424][ExtensionHostConnection] <8969> Launched Extension Host Process.
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty 2 on pty host
+stack trace: CodeExpectedError: Could not find pty 2 on pty host
+    at I.W (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:48:12233)
+    at I.updateTitle (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:48:7722)
+    at N.s.<computed> (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:48:2962)
+    at Object.call (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:31:4203)
+    at Jc.s (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78968)
+    at Jc.q (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78491)
+    at us.value (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:29:77893)
+    at C.B (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:29:746)
+    at C.fire (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:29:964)
+    at process.w (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29142)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[09:32:57] Error [CodeExpectedError]: Could not find pty 2 on pty host
+    at I.W (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:48:12233)
+    at I.updateTitle (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:48:7722)
+    at N.s.<computed> (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:48:2962)
+    at Object.call (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:31:4203)
+    at Jc.s (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78968)
+    at Jc.q (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78491)
+    at us.value (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:29:77893)
+    at C.B (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:29:746)
+    at C.fire (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:29:964)
+    at process.w (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29142)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)

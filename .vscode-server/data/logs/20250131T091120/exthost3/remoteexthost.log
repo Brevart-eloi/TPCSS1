@@ -1,0 +1,24 @@
+2025-01-31 09:20:07.161 [info] Extension host with pid 28220 started
+2025-01-31 09:20:07.623 [info] Lock '/home/debian/.vscode-server/data/User/workspaceStorage/ac455bf61161b8776084eb13cd1bde88/vscode.lock': Lock acquired.
+2025-01-31 09:20:07.678 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2025-01-31 09:20:07.690 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-01-31 09:20:07.691 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2025-01-31 09:20:07.692 [info] ExtensionService#_doActivateExtension lonefy.vscode-JS-CSS-HTML-formatter, startup: false, activationEvent: 'onLanguage:javascript'
+2025-01-31 09:20:08.873 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2025-01-31 09:20:10.206 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2025-01-31 09:20:10.207 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2025-01-31 09:20:14.861 [info] Eager extensions activated
+2025-01-31 09:20:14.862 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-01-31 09:20:14.863 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-01-31 09:20:14.864 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-01-31 09:20:14.889 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2025-01-31 09:20:14.889 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2025-01-31 09:20:33.160 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-01-31 09:20:33.161 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-01-31 09:20:33.162 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2025-01-31 09:20:33.162 [info] ExtensionService#_doActivateExtension ZainChen.json, startup: false, activationEvent: 'onLanguage:json'
+2025-01-31 09:20:45.928 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2025-01-31 09:23:13.233 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10002
+2025-01-31 09:23:30.370 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2025-01-31 09:23:45.921 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2025-01-31 09:23:50.437 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000

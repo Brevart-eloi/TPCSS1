@@ -1,0 +1,21 @@
+#id1 {
+    color: rgba(255, 0, 0, 0.466);
+}
+
+.style {
+    color: rgb(24, 104, 136)
+}
+
+.mauve {
+    color:rgb(104, 25, 25)
+}
+
+.content-container {
+    background-color: 
+pink;
+    display: block;
+    border:none;
+    padding: 0;
+    margin:0;
+    height: 200px;
+}

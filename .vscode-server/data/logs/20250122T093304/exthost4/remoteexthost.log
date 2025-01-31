@@ -1,0 +1,150 @@
+2025-01-22 09:37:46.804 [info] Extension host with pid 26699 started
+2025-01-22 09:37:46.906 [info] Lock '/home/debian/.vscode-server/data/User/workspaceStorage/d523c7c577a8808c280581cfbf96faf3/vscode.lock': Lock acquired.
+2025-01-22 09:37:46.923 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2025-01-22 09:37:47.026 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2025-01-22 09:37:47.027 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2025-01-22 09:37:47.708 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-01-22 09:37:47.709 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-01-22 09:37:47.710 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2025-01-22 09:37:47.711 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2025-01-22 09:37:47.737 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-01-22 09:37:48.494 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2025-01-22 09:37:49.895 [info] Eager extensions activated
+2025-01-22 09:37:49.900 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-01-22 09:37:49.901 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-01-22 09:37:49.902 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-01-22 09:37:49.903 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2025-01-22 09:37:49.912 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2025-01-22 09:44:52.452 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2025-01-22 09:45:25.853 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2025-01-22 09:50:11.432 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2025-01-22 10:16:21.894 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2025-01-22 10:27:58.230 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2025-01-22 11:04:17.160 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2025-01-22 11:20:57.328 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10028
+2025-01-22 11:30:14.283 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2025-01-22 11:40:49.389 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2025-01-22 11:41:19.344 [info] ExtensionService#_doActivateExtension lonefy.vscode-JS-CSS-HTML-formatter, startup: false, activationEvent: 'onLanguage:json'
+2025-01-22 11:57:16.563 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10164
+2025-01-22 14:58:13.291 [info] Extension host terminating: renderer disconnected for too long (1)
+2025-01-22 14:58:13.298 [info] Lock '/home/debian/.vscode-server/data/User/workspaceStorage/d523c7c577a8808c280581cfbf96faf3/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-01-22 14:58:13.953 [error] Canceled: Canceled
+    at new IT (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:32:153476)
+    at Dy.U (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:32:158086)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:32:155580)
+    at cw.g (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:115:32313)
+    at cw.executeCommand (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:115:31817)
+    at r.registerCommand.description (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:115:31147)
+    at cw.h (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:115:32833)
+    at cw.g (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:115:31910)
+    at cw.executeCommand (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:115:31817)
+    at Object.executeCommand (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:157:37484)
+    at Sh.L [as value] (/home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/main.js:2:975601)
+    at P.B (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+    at P.C (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:30:816)
+    at P.fire (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:30:1033)
+    at Object.p [as dispose] (/home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/main.js:2:997158)
+    at /home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/main.js:2:1003280
+    at Array.forEach (<anonymous>)
+    at b.dispose (/home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/main.js:2:1003266)
+    at ev.<anonymous> (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:109:20047)
+    at ev.dispose (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:109:20143)
+    at ev.<anonymous> (/home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/main.js:2:978080)
+    at ev.dispose (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:109:20143)
+    at ai (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:25:699)
+    at file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:119:14992
+    at file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:25:1009
+    at Object.dispose (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+    at zz.eb (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:119:11919)
+    at file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:119:9874
+    at Array.map (<anonymous>)
+    at zz.$ (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:119:9862)
+    at zz.terminate (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:119:10105)
+    at Q3.terminate (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+    at Zi (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+    at C5.a (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:175:11932)
+    at C5.h (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:31:75719)
+    at listOnTimeout (node:internal/timers:581:17)
+    at processTimers (node:internal/timers:519:7) setContext undefined
+2025-01-22 14:58:13.994 [error] Canceled: Canceled
+    at new IT (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:32:153476)
+    at Dy.U (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:32:158086)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:32:155580)
+    at cw.g (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:115:32313)
+    at cw.executeCommand (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:115:31817)
+    at r.registerCommand.description (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:115:31147)
+    at cw.h (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:115:32833)
+    at cw.g (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:115:31910)
+    at cw.executeCommand (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:115:31817)
+    at Object.executeCommand (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:157:37484)
+    at a.VscodeDevShareProvider.set hasGitHubRepositories [as hasGitHubRepositories] (/home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/github/dist/extension.js:2:328633)
+    at /home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/github/dist/extension.js:2:329592
+    at Sh.value (/home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/main.js:2:1088462)
+    at P.B (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+    at P.C (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:30:816)
+    at P.fire (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:30:1033)
+    at Object.p [as dispose] (/home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/main.js:2:997158)
+    at /home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/main.js:2:1003280
+    at Array.forEach (<anonymous>)
+    at b.dispose (/home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/main.js:2:1003266)
+    at ev.<anonymous> (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:109:20047)
+    at ev.dispose (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:109:20143)
+    at ev.<anonymous> (/home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/main.js:2:978080)
+    at ev.dispose (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:109:20143)
+    at ai (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:25:699)
+    at file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:119:14992
+    at file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:25:1009
+    at Object.dispose (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+    at zz.eb (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:119:11919)
+    at file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:119:9874
+    at Array.map (<anonymous>)
+    at zz.$ (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:119:9862)
+    at zz.terminate (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:119:10105)
+    at Q3.terminate (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+    at Zi (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+    at C5.a (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:175:11932)
+    at C5.h (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:31:75719)
+    at listOnTimeout (node:internal/timers:581:17)
+    at processTimers (node:internal/timers:519:7) setContext undefined
+2025-01-22 14:58:13.999 [error] Canceled: Canceled
+    at new IT (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:32:153476)
+    at Dy.U (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:32:158086)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:32:155580)
+    at cw.g (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:115:32313)
+    at cw.executeCommand (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:115:31817)
+    at r.registerCommand.description (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:115:31147)
+    at cw.h (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:115:32833)
+    at cw.g (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:115:31910)
+    at cw.executeCommand (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:115:31817)
+    at Object.executeCommand (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:157:37484)
+    at kF.updateReviewDiffReposContext (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:2185:3279)
+    at kF.updateRepositoryListeners (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:2185:3049)
+    at /home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:2185:2887
+    at Sh.value (/home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/main.js:2:1088462)
+    at P.B (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+    at P.C (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:30:816)
+    at P.fire (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:30:1033)
+    at Object.p [as dispose] (/home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/main.js:2:997158)
+    at /home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/main.js:2:1003280
+    at Array.forEach (<anonymous>)
+    at b.dispose (/home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/main.js:2:1003266)
+    at ev.<anonymous> (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:109:20047)
+    at ev.dispose (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:109:20143)
+    at ev.<anonymous> (/home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/main.js:2:978080)
+    at ev.dispose (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:109:20143)
+    at ai (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:25:699)
+    at file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:119:14992
+    at file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:25:1009
+    at Object.dispose (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+    at zz.eb (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:119:11919)
+    at file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:119:9874
+    at Array.map (<anonymous>)
+    at zz.$ (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:119:9862)
+    at zz.terminate (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:119:10105)
+    at Q3.terminate (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+    at Zi (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+    at C5.a (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:175:11932)
+    at C5.h (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:31:75719)
+    at listOnTimeout (node:internal/timers:581:17)
+    at processTimers (node:internal/timers:519:7) setContext undefined
+2025-01-22 14:58:14.225 [info] Extension host with pid 26699 exiting with code 0

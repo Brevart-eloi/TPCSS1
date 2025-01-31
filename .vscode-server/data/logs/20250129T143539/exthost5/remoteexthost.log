@@ -1,0 +1,17 @@
+2025-01-29 15:10:46.149 [info] Extension host with pid 19751 started
+2025-01-29 15:10:46.499 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-01-29 15:10:46.518 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2025-01-29 15:10:46.520 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2025-01-29 15:10:46.529 [info] ExtensionService#_doActivateExtension lonefy.vscode-JS-CSS-HTML-formatter, startup: false, activationEvent: 'onLanguage:html'
+2025-01-29 15:10:47.649 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2025-01-29 15:10:48.024 [info] Lock '/home/debian/.vscode-server/data/User/workspaceStorage/26686edb1030db47066636c2218f95df/vscode.lock': Lock acquired.
+2025-01-29 15:10:49.417 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2025-01-29 15:10:49.418 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2025-01-29 15:10:51.636 [info] Eager extensions activated
+2025-01-29 15:10:51.641 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-01-29 15:10:51.647 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-01-29 15:10:51.657 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-01-29 15:10:51.663 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2025-01-29 15:10:51.673 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2025-01-29 15:30:49.850 [info] Extension host terminating: parent process 17351 does not exist anymore: kill ESRCH (code: ESRCH) (errno: -3)
+2025-01-29 15:30:56.886 [info] Lock '/home/debian/.vscode-server/data/User/workspaceStorage/26686edb1030db47066636c2218f95df/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.

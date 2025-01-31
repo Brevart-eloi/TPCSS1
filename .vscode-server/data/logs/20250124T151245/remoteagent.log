@@ -1,0 +1,67 @@
+2025-01-24 15:12:45.702 [info] 
+
+
+
+
+2025-01-24 15:12:45.796 [info] Extension host agent started.
+2025-01-24 15:12:46.109 [info] [<unknown>][98f0b6b3][ExtensionHostConnection] New connection established.
+2025-01-24 15:12:46.111 [info] [<unknown>][08e03c7e][ManagementConnection] New connection established.
+2025-01-24 15:12:46.648 [info] Deleted uninstalled extension from disk github.copilot /home/debian/.vscode-server/extensions/github.copilot-1.257.0
+2025-01-24 15:12:46.899 [info] [<unknown>][98f0b6b3][ExtensionHostConnection] <939> Launched Extension Host Process.
+2025-01-24 15:12:51.720 [error] CodeExpectedError: Could not find pty 4 on pty host
+    at I.W (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/platform/terminal/node/ptyHostMain.js:48:12233)
+    at I.updateTitle (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/platform/terminal/node/ptyHostMain.js:48:7722)
+    at N.s.<computed> (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/platform/terminal/node/ptyHostMain.js:48:2962)
+    at Object.call (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/platform/terminal/node/ptyHostMain.js:31:4203)
+    at Jc.s (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78968)
+    at Jc.q (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78491)
+    at us.value (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/platform/terminal/node/ptyHostMain.js:29:77893)
+    at C.B (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/platform/terminal/node/ptyHostMain.js:29:746)
+    at C.fire (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/platform/terminal/node/ptyHostMain.js:29:964)
+    at process.w (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29142)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-01-24 15:12:51.723 [error] CodeExpectedError: Could not find pty 4 on pty host
+    at I.W (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/platform/terminal/node/ptyHostMain.js:48:12233)
+    at I.updateIcon (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/platform/terminal/node/ptyHostMain.js:48:7772)
+    at N.s.<computed> (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/platform/terminal/node/ptyHostMain.js:48:2962)
+    at Object.call (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/platform/terminal/node/ptyHostMain.js:31:4203)
+    at Jc.s (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78968)
+    at Jc.q (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78491)
+    at us.value (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/platform/terminal/node/ptyHostMain.js:29:77893)
+    at C.B (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/platform/terminal/node/ptyHostMain.js:29:746)
+    at C.fire (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/platform/terminal/node/ptyHostMain.js:29:964)
+    at process.w (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29142)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-01-24 15:13:04.427 [info] [<unknown>][08e03c7e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-01-24 15:13:06.086 [info] [<unknown>][98f0b6b3][ExtensionHostConnection] <939> Extension Host Process exited with code: 0, signal: null.
+2025-01-24 15:13:06.087 [info] Cancelling previous shutdown timeout
+2025-01-24 15:13:06.088 [info] Last EH closed, waiting before shutting down
+2025-01-24 15:13:12.489 [info] [<unknown>][627b2340][ManagementConnection] New connection established.
+2025-01-24 15:13:12.503 [info] [<unknown>][baf381e8][ExtensionHostConnection] New connection established.
+2025-01-24 15:13:12.511 [info] [<unknown>][baf381e8][ExtensionHostConnection] <1052> Launched Extension Host Process.
+2025-01-24 15:13:15.412 [error] CodeExpectedError: Could not find pty 3 on pty host
+    at I.W (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/platform/terminal/node/ptyHostMain.js:48:12233)
+    at I.updateTitle (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/platform/terminal/node/ptyHostMain.js:48:7722)
+    at N.s.<computed> (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/platform/terminal/node/ptyHostMain.js:48:2962)
+    at Object.call (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/platform/terminal/node/ptyHostMain.js:31:4203)
+    at Jc.s (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78968)
+    at Jc.q (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78491)
+    at us.value (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/platform/terminal/node/ptyHostMain.js:29:77893)
+    at C.B (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/platform/terminal/node/ptyHostMain.js:29:746)
+    at C.fire (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/platform/terminal/node/ptyHostMain.js:29:964)
+    at process.w (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29142)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-01-24 15:18:06.093 [info] New EH opened, aborting shutdown
+2025-01-24 15:18:06.100 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/server-main.js:184:1060)
+    at process.emit (node:events:530:35)
+2025-01-24 15:33:38.041 [info] [<unknown>][627b2340][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-01-24 15:33:38.327 [info] [<unknown>][baf381e8][ExtensionHostConnection] <1052> Extension Host Process exited with code: 0, signal: null.
+2025-01-24 15:33:38.328 [info] Last EH closed, waiting before shutting down
+2025-01-24 15:38:38.331 [info] Last EH closed, shutting down

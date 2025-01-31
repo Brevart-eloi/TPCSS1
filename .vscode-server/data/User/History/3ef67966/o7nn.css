@@ -1,0 +1,22 @@
+#bdcyan {
+    color: aqua;
+    font-size: 20px;
+  }
+  #bdrouge {
+    color: rgb(255, 17, 0);
+    font-size: 30px;
+  }
+  #bdbleu {
+    color: rgb(10, 26, 247);
+    font-size: 20px;
+  }
+
+  .left {
+    left: 200px;
+  }
+  .center {
+    position: center;
+  }
+  .right {
+    right: 200px;
+  }

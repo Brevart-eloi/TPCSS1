@@ -1,0 +1,42 @@
+2025-01-29 14:37:03.877 [info] Extension host with pid 17642 started
+2025-01-29 14:37:04.001 [info] Lock '/home/debian/.vscode-server/data/User/workspaceStorage/ac455bf61161b8776084eb13cd1bde88/vscode.lock': Lock acquired.
+2025-01-29 14:37:04.367 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2025-01-29 14:37:04.378 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-01-29 14:37:04.379 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2025-01-29 14:37:04.379 [info] ExtensionService#_doActivateExtension lonefy.vscode-JS-CSS-HTML-formatter, startup: false, activationEvent: 'onLanguage:javascript'
+2025-01-29 14:37:05.585 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2025-01-29 14:37:07.380 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2025-01-29 14:37:07.381 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2025-01-29 14:37:11.768 [info] Eager extensions activated
+2025-01-29 14:37:11.796 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-01-29 14:37:11.797 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-01-29 14:37:11.798 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-01-29 14:37:11.799 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2025-01-29 14:37:11.799 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2025-01-29 14:37:20.495 [info] Extension host terminating: received terminate message from renderer
+2025-01-29 14:37:20.507 [info] Lock '/home/debian/.vscode-server/data/User/workspaceStorage/ac455bf61161b8776084eb13cd1bde88/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-01-29 14:37:20.821 [error] Canceled: Canceled
+    at Fc (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:7:1122)
+    at file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:32:154927
+    at Array.forEach (<anonymous>)
+    at Dy.dispose (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:32:154867)
+    at zz.terminate (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:119:10082)
+    at Q3.terminate (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+    at Zi (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+    at Sh.value (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:175:13241)
+    at P.B (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+    at P.fire (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
+    at Vn.fire (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:32:9457)
+    at Wm.A (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:32:12573)
+    at Sh.value (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:32:10993)
+    at P.B (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+    at P.fire (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
+    at s6.acceptChunk (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:32:7940)
+    at file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:32:7226
+    at Socket.t (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:32:15451)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Socket.Readable.push (node:internal/streams/readable:392:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23) setContext undefined
+2025-01-29 14:37:20.837 [info] Extension host with pid 17642 exiting with code 0

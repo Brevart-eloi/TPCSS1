@@ -1,0 +1,184 @@
+2025-01-17 09:32:30.067 [info] Extension host with pid 8804 started
+2025-01-17 09:32:30.125 [info] Lock '/home/debian/.vscode-server/data/User/workspaceStorage/aa8a6b66ff2401bf171e34505f10016e/vscode.lock': Lock acquired.
+2025-01-17 09:32:30.896 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-01-17 09:32:30.899 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onChatParticipant:github.copilot.default'
+2025-01-17 09:32:30.904 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2025-01-17 09:32:30.905 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2025-01-17 09:32:37.305 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2025-01-17 09:32:37.307 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2025-01-17 09:32:41.604 [info] Eager extensions activated
+2025-01-17 09:32:41.605 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-01-17 09:32:41.606 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-01-17 09:32:41.607 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-01-17 09:32:41.625 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2025-01-17 09:32:48.539 [info] Extension host terminating: received terminate message from renderer
+2025-01-17 09:32:48.549 [info] Lock '/home/debian/.vscode-server/data/User/workspaceStorage/aa8a6b66ff2401bf171e34505f10016e/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-01-17 09:32:48.685 [error] Canceled: Canceled
+    at Fc (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:7:1122)
+    at file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:32:154927
+    at Array.forEach (<anonymous>)
+    at Dy.dispose (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:32:154867)
+    at zz.terminate (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:119:10082)
+    at Q3.terminate (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+    at Zi (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+    at Sh.value (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:175:13241)
+    at P.B (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+    at P.fire (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
+    at Vn.fire (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:32:9457)
+    at Wm.A (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:32:12573)
+    at Sh.value (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:32:10993)
+    at P.B (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+    at P.fire (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
+    at s6.acceptChunk (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:32:7940)
+    at file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:32:7226
+    at Socket.t (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:32:15451)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Socket.Readable.push (node:internal/streams/readable:392:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23) setContext undefined
+2025-01-17 09:32:48.695 [error] Canceled: Canceled
+    at Fc (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:7:1122)
+    at file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:32:154927
+    at Array.forEach (<anonymous>)
+    at Dy.dispose (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:32:154867)
+    at zz.terminate (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:119:10082)
+    at Q3.terminate (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+    at Zi (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+    at Sh.value (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:175:13241)
+    at P.B (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+    at P.fire (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
+    at Vn.fire (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:32:9457)
+    at Wm.A (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:32:12573)
+    at Sh.value (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:32:10993)
+    at P.B (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+    at P.fire (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
+    at s6.acceptChunk (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:32:7940)
+    at file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:32:7226
+    at Socket.t (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:32:15451)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Socket.Readable.push (node:internal/streams/readable:392:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23) setContext undefined
+2025-01-17 09:32:48.696 [error] Canceled: Canceled
+    at Fc (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:7:1122)
+    at file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:32:154927
+    at Array.forEach (<anonymous>)
+    at Dy.dispose (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:32:154867)
+    at zz.terminate (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:119:10082)
+    at Q3.terminate (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+    at Zi (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+    at Sh.value (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:175:13241)
+    at P.B (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+    at P.fire (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
+    at Vn.fire (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:32:9457)
+    at Wm.A (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:32:12573)
+    at Sh.value (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:32:10993)
+    at P.B (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+    at P.fire (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
+    at s6.acceptChunk (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:32:7940)
+    at file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:32:7226
+    at Socket.t (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:32:15451)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Socket.Readable.push (node:internal/streams/readable:392:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23) setContext undefined
+2025-01-17 09:32:48.697 [error] Canceled: Canceled
+    at Fc (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:7:1122)
+    at file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:32:154927
+    at Array.forEach (<anonymous>)
+    at Dy.dispose (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:32:154867)
+    at zz.terminate (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:119:10082)
+    at Q3.terminate (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+    at Zi (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+    at Sh.value (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:175:13241)
+    at P.B (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+    at P.fire (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
+    at Vn.fire (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:32:9457)
+    at Wm.A (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:32:12573)
+    at Sh.value (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:32:10993)
+    at P.B (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+    at P.fire (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
+    at s6.acceptChunk (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:32:7940)
+    at file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:32:7226
+    at Socket.t (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:32:15451)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Socket.Readable.push (node:internal/streams/readable:392:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23) setContext undefined
+2025-01-17 09:32:48.700 [error] Canceled: Canceled
+    at Fc (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:7:1122)
+    at file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:32:154927
+    at Array.forEach (<anonymous>)
+    at Dy.dispose (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:32:154867)
+    at zz.terminate (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:119:10082)
+    at Q3.terminate (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+    at Zi (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+    at Sh.value (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:175:13241)
+    at P.B (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+    at P.fire (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
+    at Vn.fire (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:32:9457)
+    at Wm.A (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:32:12573)
+    at Sh.value (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:32:10993)
+    at P.B (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+    at P.fire (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
+    at s6.acceptChunk (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:32:7940)
+    at file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:32:7226
+    at Socket.t (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:32:15451)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Socket.Readable.push (node:internal/streams/readable:392:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23) setContext undefined
+2025-01-17 09:32:48.701 [error] Canceled: Canceled
+    at Fc (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:7:1122)
+    at file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:32:154927
+    at Array.forEach (<anonymous>)
+    at Dy.dispose (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:32:154867)
+    at zz.terminate (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:119:10082)
+    at Q3.terminate (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+    at Zi (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+    at Sh.value (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:175:13241)
+    at P.B (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+    at P.fire (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
+    at Vn.fire (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:32:9457)
+    at Wm.A (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:32:12573)
+    at Sh.value (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:32:10993)
+    at P.B (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+    at P.fire (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
+    at s6.acceptChunk (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:32:7940)
+    at file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:32:7226
+    at Socket.t (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:32:15451)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Socket.Readable.push (node:internal/streams/readable:392:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23) setContext undefined
+2025-01-17 09:32:48.702 [error] Canceled: Canceled
+    at Fc (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:7:1122)
+    at file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:32:154927
+    at Array.forEach (<anonymous>)
+    at Dy.dispose (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:32:154867)
+    at zz.terminate (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:119:10082)
+    at Q3.terminate (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+    at Zi (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+    at Sh.value (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:175:13241)
+    at P.B (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+    at P.fire (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
+    at Vn.fire (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:32:9457)
+    at Wm.A (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:32:12573)
+    at Sh.value (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:32:10993)
+    at P.B (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+    at P.fire (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
+    at s6.acceptChunk (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:32:7940)
+    at file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:32:7226
+    at Socket.t (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/workbench/api/node/extensionHostProcess.js:32:15451)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Socket.Readable.push (node:internal/streams/readable:392:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23) setContext undefined
+2025-01-17 09:32:48.715 [info] Extension host with pid 8804 exiting with code 0

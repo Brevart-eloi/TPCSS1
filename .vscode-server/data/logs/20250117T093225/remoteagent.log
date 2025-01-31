@@ -1,0 +1,59 @@
+2025-01-17 09:32:25.586 [info] 
+
+
+
+
+2025-01-17 09:32:25.615 [info] Extension host agent started.
+2025-01-17 09:32:25.750 [info] [<unknown>][0f6f5e20][ManagementConnection] New connection established.
+2025-01-17 09:32:25.754 [info] [<unknown>][272e569d][ExtensionHostConnection] New connection established.
+2025-01-17 09:32:26.105 [info] [<unknown>][272e569d][ExtensionHostConnection] <8804> Launched Extension Host Process.
+2025-01-17 09:32:40.621 [info] [<unknown>][0f6f5e20][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-01-17 09:32:48.777 [info] [<unknown>][272e569d][ExtensionHostConnection] <8804> Extension Host Process exited with code: 0, signal: null.
+2025-01-17 09:32:48.784 [info] Cancelling previous shutdown timeout
+2025-01-17 09:32:48.784 [info] Last EH closed, waiting before shutting down
+2025-01-17 09:32:54.953 [info] [<unknown>][dcca85e9][ManagementConnection] New connection established.
+2025-01-17 09:32:54.955 [info] [<unknown>][563df424][ExtensionHostConnection] New connection established.
+2025-01-17 09:32:54.962 [info] [<unknown>][563df424][ExtensionHostConnection] <8969> Launched Extension Host Process.
+2025-01-17 09:32:57.861 [error] CodeExpectedError: Could not find pty 2 on pty host
+    at I.W (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:48:12233)
+    at I.updateTitle (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:48:7722)
+    at N.s.<computed> (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:48:2962)
+    at Object.call (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:31:4203)
+    at Jc.s (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78968)
+    at Jc.q (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78491)
+    at us.value (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:29:77893)
+    at C.B (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:29:746)
+    at C.fire (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:29:964)
+    at process.w (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29142)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-01-17 09:35:45.670 [info] [<unknown>][dcca85e9][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-01-17 09:35:45.703 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/server-main.js:184:1060)
+    at process.emit (node:events:530:35)
+2025-01-17 09:35:46.170 [info] [<unknown>][563df424][ExtensionHostConnection] <8969> Extension Host Process exited with code: 0, signal: null.
+2025-01-17 09:35:46.173 [info] Cancelling previous shutdown timeout
+2025-01-17 09:35:46.174 [info] Last EH closed, waiting before shutting down
+2025-01-17 09:36:02.841 [info] [<unknown>][c6d576d1][ManagementConnection] New connection established.
+2025-01-17 09:36:02.847 [info] [<unknown>][5ff4548e][ExtensionHostConnection] New connection established.
+2025-01-17 09:36:02.860 [info] [<unknown>][5ff4548e][ExtensionHostConnection] <9289> Launched Extension Host Process.
+2025-01-17 09:36:05.855 [error] CodeExpectedError: Could not find pty 3 on pty host
+    at I.W (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:48:12233)
+    at I.updateTitle (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:48:7722)
+    at N.s.<computed> (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:48:2962)
+    at Object.call (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:31:4203)
+    at Jc.s (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78968)
+    at Jc.q (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78491)
+    at us.value (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:29:77893)
+    at C.B (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:29:746)
+    at C.fire (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:29:964)
+    at process.w (file:///home/debian/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29142)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-01-17 09:40:46.178 [info] New EH opened, aborting shutdown
+2025-01-17 11:23:01.764 [info] [<unknown>][c6d576d1][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-01-17 11:23:02.148 [info] [<unknown>][5ff4548e][ExtensionHostConnection] <9289> Extension Host Process exited with code: 0, signal: null.
+2025-01-17 11:23:02.149 [info] Last EH closed, waiting before shutting down
+2025-01-17 11:28:02.154 [info] Last EH closed, shutting down

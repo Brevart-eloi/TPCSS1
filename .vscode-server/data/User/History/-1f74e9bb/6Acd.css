@@ -1,0 +1,23 @@
+.green {
+    color: rgba(0, 128, 0, 0.973);
+    font-family: 'Times New Roman', Times, serif;
+}
+.red {
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+}
+.blue {
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+}
+.backgroundblue {
+    background: rgb(53, 111, 236);
+    width: 256px; 
+    height: 900px;
+    position: absolute;
+    right: 570px;
+    bottom: 25px;
+}
+.allback {
+    background: rgb(243, 243, 243); 
+}

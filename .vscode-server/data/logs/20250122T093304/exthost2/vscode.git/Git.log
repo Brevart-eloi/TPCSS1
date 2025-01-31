@@ -1,0 +1,126 @@
+2025-01-22 09:35:12.803 [info] [main] Log level: Info
+2025-01-22 09:35:12.803 [info] [main] Validating found git in: "git"
+2025-01-22 09:35:12.803 [info] [main] Using git "2.30.2" from "git"
+2025-01-22 09:35:12.803 [info] [Model][doInitialScan] Initial repository scan started
+2025-01-22 09:35:12.803 [info] > git rev-parse --show-toplevel [189ms]
+2025-01-22 09:35:12.824 [info] > git rev-parse --show-toplevel [32ms]
+2025-01-22 09:35:12.849 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (1), unsafe repositories (0)
+2025-01-22 09:35:21.081 [info] > git rev-parse --show-toplevel [8ms]
+2025-01-22 09:35:21.090 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2025-01-22 09:35:21.118 [info] [Model][openRepository] Opened repository: /var/www/html/TPCSS1
+2025-01-22 09:35:21.154 [info] > git config --get commit.template [25ms]
+2025-01-22 09:35:21.177 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [28ms]
+2025-01-22 09:35:21.206 [info] > git status -z -uall [14ms]
+2025-01-22 09:35:21.211 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+2025-01-22 09:35:21.266 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [14ms]
+2025-01-22 09:35:21.283 [info] > git config --get commit.template [18ms]
+2025-01-22 09:35:21.285 [info] > git config --local branch.main.vscode-merge-base [12ms]
+2025-01-22 09:35:21.285 [warning] [Git][config] git config failed: Failed to execute git
+2025-01-22 09:35:21.392 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [61ms]
+2025-01-22 09:35:21.393 [info] > git reflog main --grep-reflog=branch: Created from *. [102ms]
+2025-01-22 09:35:21.417 [info] > git status -z -uall [9ms]
+2025-01-22 09:35:21.418 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [20ms]
+2025-01-22 09:35:21.418 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-01-22 09:35:21.418 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-01-22 09:35:21.429 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [13ms]
+2025-01-22 09:35:21.450 [info] > git merge-base refs/heads/main refs/remotes/Origine/main [8ms]
+2025-01-22 09:35:21.455 [info] > git merge-base refs/heads/main refs/remotes/Origine/main [29ms]
+2025-01-22 09:35:21.481 [info] > git diff --name-status -z --diff-filter=ADMR 119e29397e7ff99a03d522c7157705c1addf076b...refs/remotes/Origine/main [26ms]
+2025-01-22 09:35:21.486 [info] > git diff --name-status -z --diff-filter=ADMR 119e29397e7ff99a03d522c7157705c1addf076b...refs/remotes/Origine/main [12ms]
+2025-01-22 09:35:21.702 [info] > git check-ignore -v -z --stdin [6ms]
+2025-01-22 09:35:21.773 [info] > git ls-files --stage -- /var/www/html/TPCSS1/tp info/tp1/tp1.html [3ms]
+2025-01-22 09:35:21.837 [info] > git show --textconv :tp info/tp1/tp1.html [75ms]
+2025-01-22 09:35:21.839 [info] > git cat-file -s a22ee8520a3804f696e923a2374b566a2630bb5b [60ms]
+2025-01-22 09:35:25.548 [info] > git check-ignore -v -z --stdin [4ms]
+2025-01-22 09:35:25.933 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat -n50 --skip=0 --topo-order --decorate=full --stdin [966ms]
+2025-01-22 09:35:37.315 [info] > git add -A -- /var/www/html/TPCSS1/tp anglais/Résumé/part1.html /var/www/html/TPCSS1/tp info/notrepage.html/index1.html   /var/www/html/TPCSS1/tp info/notrepage.html/main1.css /var/www/html/TPCSS1/tp info/site web/styles.css /var/www/html/TPCSS1/tp info/site web/test.js /var/www/html/TPCSS1/tp info/site web/test2.php /var/www/html/TPCSS1/tp info/tp1/tp1.html /var/www/html/TPCSS1/tp info/première page perso/from matplotlib import pyplot as plt.py /var/www/html/TPCSS1/tp info/première page perso/index1.html   /var/www/html/TPCSS1/tp info/première page perso/main1.css /var/www/html/TPCSS1/tp info/site web a publier/styles.css /var/www/html/TPCSS1/tp info/site web a publier/test.js /var/www/html/TPCSS1/tp info/site web a publier/test2.php /var/www/html/TPCSS1/tp info/tp1/tp1.js [178ms]
+2025-01-22 09:35:37.347 [info] > git config --get commit.template [13ms]
+2025-01-22 09:35:37.351 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-01-22 09:35:37.375 [info] > git status -z -uall [12ms]
+2025-01-22 09:35:37.378 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-01-22 09:35:37.736 [info] > git show --textconv HEAD:tp info/tp1/tp1.html [21ms]
+2025-01-22 09:35:37.737 [info] > git ls-tree -l HEAD -- /var/www/html/TPCSS1/tp info/tp1/tp1.html [14ms]
+2025-01-22 09:35:38.523 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [63ms]
+2025-01-22 09:35:38.537 [info] > git config --get commit.template [6ms]
+2025-01-22 09:35:38.565 [info] > git config --get commit.template [13ms]
+2025-01-22 09:35:38.577 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [16ms]
+2025-01-22 09:35:38.596 [info] > git status -z -uall [12ms]
+2025-01-22 09:35:38.600 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-01-22 09:35:38.645 [info] > git merge-base refs/heads/main refs/remotes/Origine/main [20ms]
+2025-01-22 09:35:38.663 [info] > git config --get commit.template [19ms]
+2025-01-22 09:35:38.675 [info] > git diff --name-status -z --diff-filter=ADMR 119e29397e7ff99a03d522c7157705c1addf076b...refs/remotes/Origine/main [15ms]
+2025-01-22 09:35:38.680 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-01-22 09:35:38.712 [info] > git status -z -uall [26ms]
+2025-01-22 09:35:38.752 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [53ms] (cancelled)
+2025-01-22 09:35:38.810 [info] > git config --get commit.template [39ms]
+2025-01-22 09:35:38.811 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2025-01-22 09:35:38.849 [info] > git status -z -uall [19ms]
+2025-01-22 09:35:38.854 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2025-01-22 09:35:38.871 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat -n50 --skip=0 --topo-order --decorate=full --stdin [160ms]
+2025-01-22 09:35:39.853 [info] > git ls-files --stage -- /var/www/html/TPCSS1/tp info/tp1/tp1.html [6ms]
+2025-01-22 09:35:39.861 [info] > git cat-file -s 93eaec535562b51948c0682a68b16a20eaa5eb8b [3ms]
+2025-01-22 09:35:39.879 [info] > git show --textconv :tp info/tp1/tp1.html [7ms]
+2025-01-22 09:35:41.185 [info] > git log --oneline --cherry main...main@{upstream} -- [4ms]
+2025-01-22 09:35:41.698 [info] > git pull --tags Origine main [505ms]
+2025-01-22 09:35:41.698 [info] hint: Pulling without specifying how to reconcile divergent branches is
+hint: discouraged. You can squelch this message by running one of the following
+hint: commands sometime before your next pull:
+hint: 
+hint:   git config pull.rebase false  # merge (the default strategy)
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint: 
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+From https://github.com/Brevart-eloi/site1
+ * branch            main       -> FETCH_HEAD
+2025-01-22 09:35:44.531 [info] > git ls-files --stage -- /var/www/html/TPCSS1/tp info/tp1/tp1.html [5ms]
+2025-01-22 09:35:44.543 [info] > git cat-file -s 93eaec535562b51948c0682a68b16a20eaa5eb8b [6ms]
+2025-01-22 09:35:44.569 [info] > git show --textconv :tp info/tp1/tp1.html [4ms]
+2025-01-22 09:35:58.039 [info] > git push Origine main:main [16331ms]
+2025-01-22 09:35:58.039 [info] remote: This repository moved. Please use the new location:        
+remote:   https://github.com/Brevart-eloi/TPCSS1.git        
+To https://github.com/Brevart-eloi/site1.git
+   119e293..e820efb  main -> main
+2025-01-22 09:35:58.228 [info] > git config --get commit.template [174ms]
+2025-01-22 09:35:58.370 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [14ms]
+2025-01-22 09:35:58.420 [info] > git status -z -uall [38ms]
+2025-01-22 09:35:58.431 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [34ms]
+2025-01-22 09:35:58.453 [info] > git merge-base refs/heads/main refs/remotes/Origine/main [6ms]
+2025-01-22 09:35:58.480 [info] > git diff --name-status -z --diff-filter=ADMR e820efb32d5933e1ea774e1268cca360065bac2d...refs/remotes/Origine/main [21ms]
+2025-01-22 09:35:58.561 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat -n50 --skip=0 --topo-order --decorate=full --stdin [82ms]
+2025-01-22 09:35:59.505 [info] > git ls-files --stage -- /var/www/html/TPCSS1/tp info/tp1/tp1.html [7ms]
+2025-01-22 09:35:59.514 [info] > git cat-file -s 93eaec535562b51948c0682a68b16a20eaa5eb8b [3ms]
+2025-01-22 09:35:59.791 [info] > git show --textconv :tp info/tp1/tp1.html [138ms]
+2025-01-22 09:36:05.383 [info] > git ls-files --stage -- /var/www/html/TPCSS1/tp info/tp1/tp1.html [4ms]
+2025-01-22 09:36:07.263 [info] > git fetch [3721ms]
+2025-01-22 09:36:07.274 [info] > git cat-file -s 93eaec535562b51948c0682a68b16a20eaa5eb8b [19ms]
+2025-01-22 09:36:07.288 [info] > git config --get commit.template [14ms]
+2025-01-22 09:36:07.299 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [16ms]
+2025-01-22 09:36:07.330 [info] > git status -z -uall [22ms]
+2025-01-22 09:36:07.333 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [13ms]
+2025-01-22 09:36:07.349 [info] > git show --textconv :tp info/tp1/tp1.html [19ms]
+2025-01-22 09:42:22.610 [info] > git fetch [5582ms]
+2025-01-22 09:42:23.160 [info] > git config --get commit.template [177ms]
+2025-01-22 09:42:23.162 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [40ms]
+2025-01-22 09:42:23.250 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-01-22 09:42:23.524 [info] > git status -z -uall [291ms]
+2025-01-22 09:44:21.070 [info] > git ls-files --stage -- /var/www/html/TPCSS1/tp info/tp1/tp1.html [18ms]
+2025-01-22 09:44:21.089 [info] > git cat-file -s 93eaec535562b51948c0682a68b16a20eaa5eb8b [9ms]
+2025-01-22 09:44:21.129 [info] > git show --textconv :tp info/tp1/tp1.html [5ms]
+2025-01-22 09:44:24.046 [info] > git blame --root --incremental e820efb32d5933e1ea774e1268cca360065bac2d -- /var/www/html/TPCSS1/tp info/tp1/tp1.html [5366ms]
+2025-01-22 09:50:48.709 [info] > git fetch [775ms]
+2025-01-22 09:50:48.841 [info] > git config --get commit.template [96ms]
+2025-01-22 09:50:48.857 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-01-22 09:50:48.874 [info] > git status -z -uall [10ms]
+2025-01-22 09:50:48.879 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-01-22 10:27:55.651 [info] > git ls-files --stage -- /var/www/html/TPCSS1/tp info/tp1/tp1.html [18ms]
+2025-01-22 10:27:55.665 [info] > git cat-file -s 93eaec535562b51948c0682a68b16a20eaa5eb8b [4ms]
+2025-01-22 10:27:55.705 [info] > git show --textconv :tp info/tp1/tp1.html [4ms]
+2025-01-22 10:27:56.236 [info] > git fetch [842ms]
+2025-01-22 10:27:56.257 [info] > git config --get commit.template [9ms]
+2025-01-22 10:27:56.261 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-01-22 10:27:56.284 [info] > git status -z -uall [14ms]
+2025-01-22 10:27:56.288 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]

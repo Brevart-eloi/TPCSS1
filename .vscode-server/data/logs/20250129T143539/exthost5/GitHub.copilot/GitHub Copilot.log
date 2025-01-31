@@ -1,0 +1,11 @@
+2025-01-29 15:11:05.461 [info] [certificates] Removed 10 expired certificates
+2025-01-29 15:11:06.662 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
+2025-01-29 15:11:07.129 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
+2025-01-29 15:11:09.246 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
+2025-01-29 15:11:09.249 [info] [code-referencing] Public code references are enabled.
+2025-01-29 15:17:36.990 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 416 ms
+2025-01-29 15:17:37.022 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-29 15:17:37.077 [info] [streamChoices] request done: headerRequestId: [618271f7-5edd-4d55-b724-19dfaf782a92] model deployment ID: [d132-20240927163109]
+2025-01-29 15:18:00.062 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 111 ms
+2025-01-29 15:18:00.068 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-29 15:18:00.078 [info] [streamChoices] request done: headerRequestId: [19938ca1-ae1e-412d-986a-0debf587dbb8] model deployment ID: [d132-20240927163109]

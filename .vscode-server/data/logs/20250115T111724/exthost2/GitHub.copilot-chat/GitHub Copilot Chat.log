@@ -1,0 +1,21 @@
+2025-01-15 11:19:21.649 [info] Can't use the Electron fetcher in this environment.
+2025-01-15 11:19:21.649 [info] Using the Node fetch fetcher.
+2025-01-15 11:19:21.649 [info] Initializing Git extension service.
+2025-01-15 11:19:21.649 [info] Successfully activated the vscode.git extension.
+2025-01-15 11:19:21.649 [info] Enablement state of the vscode.git extension: true.
+2025-01-15 11:19:21.649 [info] Successfully registered Git commit message provider.
+2025-01-15 11:19:27.363 [info] Logged in as Brevart-eloi
+2025-01-15 11:19:35.270 [info] Got Copilot token for Brevart-eloi
+2025-01-15 11:19:35.551 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-01-15 11:19:35.551 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-01-15 11:19:35.584 [info] Registering default platform agent...
+2025-01-15 11:19:36.449 [info] Fetched model metadata in 1159ms f284a038-3797-4404-9bc3-ded2c9d527a9
+2025-01-15 11:19:36.458 [info] activationBlocker from 'languageModelAccess' took for 14650ms
+2025-01-15 11:19:48.904 [info] message 0 returned. finish reason: [stop]
+2025-01-15 11:19:48.907 [info] request done: requestId: [9427d20a-0574-4bf3-b969-25a5377f6961] model deployment ID: []
+2025-01-15 11:19:50.806 [info] message 0 returned. finish reason: [stop]
+2025-01-15 11:19:50.815 [info] request done: requestId: [03fb8678-3361-4271-8e18-29c1303b8651] model deployment ID: []
+2025-01-15 11:19:51.998 [info] message 0 returned. finish reason: [stop]
+2025-01-15 11:19:52.000 [info] request done: requestId: [8036d270-82f1-43cc-a221-bb26bb437547] model deployment ID: []
+2025-01-15 11:19:52.004 [info] message 0 returned. finish reason: [stop]
+2025-01-15 11:19:52.005 [info] request done: requestId: [7b56bb40-1e79-47dc-ae16-917e7c04a43f] model deployment ID: []

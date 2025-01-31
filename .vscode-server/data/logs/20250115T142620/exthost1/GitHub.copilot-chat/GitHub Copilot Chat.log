@@ -1,0 +1,27 @@
+2025-01-15 14:26:33.920 [info] Can't use the Electron fetcher in this environment.
+2025-01-15 14:26:33.921 [info] Using the Node fetch fetcher.
+2025-01-15 14:26:33.921 [info] Initializing Git extension service.
+2025-01-15 14:26:33.921 [info] Successfully activated the vscode.git extension.
+2025-01-15 14:26:33.921 [info] Enablement state of the vscode.git extension: true.
+2025-01-15 14:26:33.921 [info] Successfully registered Git commit message provider.
+2025-01-15 14:26:35.466 [info] Logged in as Brevart-eloi
+2025-01-15 14:26:37.085 [info] Got Copilot token for Brevart-eloi
+2025-01-15 14:26:37.686 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-01-15 14:26:37.686 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-01-15 14:26:37.723 [info] Registering default platform agent...
+2025-01-15 14:26:38.431 [info] Fetched model metadata in 1317ms 45413985-eb3f-4992-bf07-630cea8f31c2
+2025-01-15 14:26:38.439 [info] activationBlocker from 'languageModelAccess' took for 4215ms
+2025-01-15 14:41:45.258 [info] Fetched model metadata in 634ms a97f6b8b-7b9d-4b7b-98d8-d07eed729d15
+2025-01-15 14:51:37.126 [info] Logged in as Brevart-eloi
+2025-01-15 14:51:39.941 [info] Got Copilot token for Brevart-eloi
+2025-01-15 14:51:40.011 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-01-15 15:06:40.702 [info] Fetched model metadata in 635ms 5503164b-644b-4482-a6ff-9a2fe5344906
+2025-01-15 15:16:39.977 [info] Logged in as Brevart-eloi
+2025-01-15 15:16:40.828 [info] Got Copilot token for Brevart-eloi
+2025-01-15 15:16:40.900 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-01-15 15:16:41.565 [info] Fetched model metadata in 637ms 0e9c9ff4-c1f3-4853-9518-de72d112de2b
+2025-01-15 15:31:42.240 [info] Fetched model metadata in 645ms 9a8ae81b-e9f3-49a6-a6c7-481e1383b236
+2025-01-15 15:41:40.853 [info] Logged in as Brevart-eloi
+2025-01-15 15:41:41.720 [info] Got Copilot token for Brevart-eloi
+2025-01-15 15:41:41.960 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-01-15 15:56:42.779 [info] Fetched model metadata in 746ms bb3c9fda-321b-4ff7-8857-b30d4e2fe6b1

@@ -1,0 +1,63 @@
+2025-01-22 09:33:17.595 [info] Can't use the Electron fetcher in this environment.
+2025-01-22 09:33:17.595 [info] Using the Node fetch fetcher.
+2025-01-22 09:33:17.595 [info] Initializing Git extension service.
+2025-01-22 09:33:17.595 [info] Successfully activated the vscode.git extension.
+2025-01-22 09:33:17.595 [info] Enablement state of the vscode.git extension: true.
+2025-01-22 09:33:17.595 [info] Successfully registered Git commit message provider.
+2025-01-22 09:33:18.672 [warning] GitHub login failed
+2025-01-22 09:33:18.682 [info] copilot token chat_enabled: undefined, sku: 
+2025-01-22 09:33:18.682 [error] Error: GitHubLoginFailed
+    at B0._authShowWarnings (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:3909)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at B0.getCopilotToken (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:2438)
+    at dF.getCopilotToken (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:334:26267)
+    at IZ.waitForChatEnabled (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:444:13713)
+    at IZ.run (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:444:13432)
+    at w0.askToUpgradeAuthPermissions (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:444:12870): Failed to get copilot token
+2025-01-22 09:33:18.683 [error] You are not signed in to GitHub. Please sign in to use Copilot.
+2025-01-22 09:33:18.683 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-01-22 09:33:18.683 [error] Error: GitHubLoginFailed
+    at B0._authShowWarnings (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:3909)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at B0.getCopilotToken (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:2438)
+    at dF.getCopilotToken (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:334:26267)
+    at Y0._getAuthSession (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2825)
+    at Object.A [as task] (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:640)
+    at xC._processQueue (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:487:1101)
+2025-01-22 09:33:18.683 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-01-22 09:33:18.683 [error] Error: GitHubLoginFailed
+    at B0._authShowWarnings (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:3909)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at B0.getCopilotToken (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:2438)
+    at dF.getCopilotToken (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:334:26267)
+    at Y0._getAuthSession (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2825)
+    at r (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2288)
+    at Y0._registerEmbeddings (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2787)
+    at async Promise.all (index 1)
+    at async Promise.allSettled (index 0)
+    at tB.waitForActivationBlockers (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:334:13668)
+    at /home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:2255:4201
+    at Frr (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:2255:4014)
+    at K0.n (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:115:4447)
+    at K0.m (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:115:4410)
+    at K0.l (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:115:3866)
+2025-01-22 09:33:18.684 [info] activationBlocker from 'languageModelAccess' took for 819ms
+2025-01-22 09:33:18.745 [warning] GitHub login failed
+2025-01-22 09:33:18.752 [error] You are not signed in to GitHub. Please sign in to use Copilot.
+2025-01-22 09:33:18.752 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-01-22 09:33:18.752 [error] Error: GitHubLoginFailed
+    at B0._authShowWarnings (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:3909)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at B0.getCopilotToken (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:2438)
+    at dF.getCopilotToken (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:334:26267)
+    at Y0._getAuthSession (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2825)
+    at r (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2288)
+2025-01-22 09:33:18.752 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-01-22 09:33:18.752 [error] Error: GitHubLoginFailed
+    at B0._authShowWarnings (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:3909)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at B0.getCopilotToken (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:2438)
+    at dF.getCopilotToken (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:334:26267)
+    at Y0._getAuthSession (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2825)
+    at Object.A [as task] (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:640)
+    at xC._processQueue (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:487:1101)

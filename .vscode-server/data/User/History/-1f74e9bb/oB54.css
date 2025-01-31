@@ -1,0 +1,25 @@
+.blue {
+    color: rgba(15, 15, 224, 0.603)
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.black {
+    color: rgb(0, 0, 0);
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.backgroundblue {
+    background: rgb(96, 208, 253);
+    width: 20%; 
+    height: 110%;
+    position: absolute;
+    left: 0%;
+    bottom: -92px;
+}
+.allback {
+    background: rgb(243, 243, 243); 
+}
+
+.photo {
+
+    text-align: center;
+}

@@ -1,0 +1,26 @@
+.green {
+    color: rgba(0, 128, 0, 0.973);
+    font-family: 'Times New Roman', Times, serif;
+}
+.black {
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.backgroundblue {
+    background: rgb(96, 208, 253);
+    width: 256px; 
+    height: 110%;
+    position: absolute;
+    position: left;
+    right: 2%;
+    bottom: -92px;
+}
+.allback {
+    background: rgb(243, 243, 243); 
+}
+
+.photo {
+
+    text-align: center;
+}

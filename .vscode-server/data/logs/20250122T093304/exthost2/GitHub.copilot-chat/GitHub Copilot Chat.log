@@ -1,0 +1,99 @@
+2025-01-22 09:35:12.825 [info] Can't use the Electron fetcher in this environment.
+2025-01-22 09:35:12.825 [info] Using the Node fetch fetcher.
+2025-01-22 09:35:12.825 [info] Initializing Git extension service.
+2025-01-22 09:35:12.825 [info] Successfully activated the vscode.git extension.
+2025-01-22 09:35:12.825 [info] Enablement state of the vscode.git extension: true.
+2025-01-22 09:35:12.825 [info] Successfully registered Git commit message provider.
+2025-01-22 09:35:14.535 [warning] GitHub login failed
+2025-01-22 09:35:14.570 [info] copilot token chat_enabled: undefined, sku: 
+2025-01-22 09:35:14.570 [error] Error: GitHubLoginFailed
+    at B0._authShowWarnings (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:3909)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at B0.getCopilotToken (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:2438)
+    at dF.getCopilotToken (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:334:26267)
+    at IZ.waitForChatEnabled (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:444:13713)
+    at IZ.run (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:444:13432)
+    at w0.askToUpgradeAuthPermissions (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:444:12870): Failed to get copilot token
+2025-01-22 09:35:14.570 [error] You are not signed in to GitHub. Please sign in to use Copilot.
+2025-01-22 09:35:14.570 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-01-22 09:35:14.570 [error] Error: GitHubLoginFailed
+    at B0._authShowWarnings (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:3909)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at B0.getCopilotToken (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:2438)
+    at dF.getCopilotToken (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:334:26267)
+    at Y0._getAuthSession (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2825)
+    at Object.A [as task] (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:640)
+    at xC._processQueue (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:487:1101)
+2025-01-22 09:35:14.575 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-01-22 09:35:14.575 [error] Error: GitHubLoginFailed
+    at B0._authShowWarnings (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:3909)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at B0.getCopilotToken (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:2438)
+    at dF.getCopilotToken (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:334:26267)
+    at Y0._getAuthSession (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2825)
+    at r (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2288)
+    at Y0._registerEmbeddings (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2787)
+    at async Promise.all (index 1)
+    at async Promise.allSettled (index 0)
+    at tB.waitForActivationBlockers (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:334:13668)
+    at /home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:2255:4201
+    at Frr (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:2255:4014)
+    at K0.n (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:115:4447)
+    at K0.m (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:115:4410)
+    at K0.l (file:///home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/vs/workbench/api/node/extensionHostProcess.js:115:3866)
+2025-01-22 09:35:14.575 [info] activationBlocker from 'languageModelAccess' took for 515ms
+2025-01-22 09:35:14.681 [warning] GitHub login failed
+2025-01-22 09:35:14.690 [error] You are not signed in to GitHub. Please sign in to use Copilot.
+2025-01-22 09:35:14.690 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-01-22 09:35:14.690 [error] Error: GitHubLoginFailed
+    at B0._authShowWarnings (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:3909)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at B0.getCopilotToken (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:2438)
+    at dF.getCopilotToken (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:334:26267)
+    at Y0._getAuthSession (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2825)
+    at r (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2288)
+2025-01-22 09:35:14.691 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-01-22 09:35:14.691 [error] Error: GitHubLoginFailed
+    at B0._authShowWarnings (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:3909)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at B0.getCopilotToken (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:2438)
+    at dF.getCopilotToken (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:334:26267)
+    at Y0._getAuthSession (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2825)
+    at Object.A [as task] (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:640)
+    at xC._processQueue (/home/debian/.vscode-server/extensions/github.copilot-chat-0.23.2/dist/extension.js:487:1101)
+2025-01-22 09:35:21.997 [warning] [repo:Brevart-eloi/site1] Error fetching code search. Error: bad request: Authorization header is badly formatted
+. Retrying in 1ms. Query: text
+2025-01-22 09:35:22.522 [warning] [repo:Brevart-eloi/site1] Error fetching code search. Error: bad request: Authorization header is badly formatted
+. Retrying in 2ms. Query: text
+2025-01-22 09:35:23.075 [warning] [repo:Brevart-eloi/site1] Error fetching code search. Error: bad request: Authorization header is badly formatted
+. Retrying in 3ms. Query: text
+2025-01-22 09:35:23.177 [warning] [repo:Brevart-eloi/site1] Max Retry Error thrown while querying 'text'
+2025-01-22 09:35:57.505 [info] Logged in as Brevart-eloi
+2025-01-22 09:35:58.608 [info] Got Copilot token for Brevart-eloi
+2025-01-22 09:35:58.807 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-01-22 09:35:58.807 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-01-22 09:35:58.841 [info] Registering default platform agent...
+2025-01-22 09:36:00.509 [info] Fetched model metadata in 988ms 610ae43a-46b4-4fa8-8f1e-4baecd155a55
+2025-01-22 09:51:22.486 [info] Fetched model metadata in 1211ms ee0860d5-5192-413b-8097-b0392e224cae
+2025-01-22 10:01:17.104 [info] Logged in as Brevart-eloi
+2025-01-22 10:01:18.615 [info] Got Copilot token for Brevart-eloi
+2025-01-22 10:01:19.112 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-01-22 10:16:20.298 [info] Fetched model metadata in 1075ms 0ebf9d72-2ae0-411e-9c39-eefb8f658293
+2025-01-22 10:26:18.729 [info] Logged in as Brevart-eloi
+2025-01-22 10:26:20.024 [info] Got Copilot token for Brevart-eloi
+2025-01-22 10:26:20.296 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-01-22 10:26:21.278 [info] Fetched model metadata in 870ms a7e326b3-9ccd-4a63-9674-54867d879c7d
+2025-01-22 10:41:22.249 [info] Fetched model metadata in 938ms 67f2871e-1937-4644-b36b-8d4475a4b388
+2025-01-22 10:51:20.054 [info] Logged in as Brevart-eloi
+2025-01-22 10:51:21.085 [info] Got Copilot token for Brevart-eloi
+2025-01-22 10:51:21.151 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-01-22 11:06:21.977 [info] Fetched model metadata in 775ms 94bd1e5f-1679-4ce8-9971-46a3e9e1732b
+2025-01-22 11:16:21.111 [info] Logged in as Brevart-eloi
+2025-01-22 11:16:22.325 [info] Got Copilot token for Brevart-eloi
+2025-01-22 11:16:22.393 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-01-22 11:16:23.193 [info] Fetched model metadata in 717ms 0c8e24eb-af75-4e1a-aef5-2f9fa364e39f
+2025-01-22 11:31:23.979 [info] Fetched model metadata in 754ms fadccf44-74c7-4944-a4cf-a3d9baa2376b
+2025-01-22 11:41:22.348 [info] Logged in as Brevart-eloi
+2025-01-22 11:41:23.261 [info] Got Copilot token for Brevart-eloi
+2025-01-22 11:41:23.466 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-01-22 11:56:24.386 [info] Fetched model metadata in 840ms 88c37576-c5f7-47fa-8259-1f2d076763a4

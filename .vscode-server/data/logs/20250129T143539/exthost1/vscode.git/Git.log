@@ -1,0 +1,135 @@
+2025-01-29 14:35:52.124 [info] [main] Log level: Info
+2025-01-29 14:35:52.124 [info] [main] Validating found git in: "git"
+2025-01-29 14:35:52.124 [info] [main] Using git "2.30.2" from "git"
+2025-01-29 14:35:52.124 [info] [Model][doInitialScan] Initial repository scan started
+2025-01-29 14:35:52.124 [info] > git rev-parse --show-toplevel [4542ms]
+2025-01-29 14:35:52.124 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-01-29 14:35:52.124 [info] > git rev-parse --show-toplevel [2004ms]
+2025-01-29 14:35:52.126 [info] > git rev-parse --git-dir --git-common-dir [250ms]
+2025-01-29 14:35:52.186 [info] [Model][openRepository] Opened repository: /var/www/html/jalon_tiroire
+2025-01-29 14:35:52.354 [info] > git rev-parse --show-toplevel [134ms]
+2025-01-29 14:35:52.359 [info] > git config --get commit.template [148ms]
+2025-01-29 14:35:52.426 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [35ms]
+2025-01-29 14:35:52.433 [info] > git rev-parse --git-dir --git-common-dir [60ms]
+2025-01-29 14:35:52.470 [info] [Model][openRepository] Opened repository: /var/www/html/Reservation_Restaurant
+2025-01-29 14:35:53.713 [info] > git rev-parse --show-toplevel [71ms]
+2025-01-29 14:35:53.713 [info] > git config --get commit.template [76ms]
+2025-01-29 14:35:53.714 [info] > git fetch [1245ms]
+2025-01-29 14:35:53.714 [info] From https://github.com/DumeS0108/Reservation_Restaurant
+   daac328..5754f8d  main       -> origin/main
+2025-01-29 14:35:53.715 [info] > git fetch [1530ms]
+2025-01-29 14:35:53.838 [info] > git config --get commit.template [101ms]
+2025-01-29 14:35:53.838 [info] > git config --get commit.template [104ms]
+2025-01-29 14:35:53.839 [info] > git rev-parse --git-dir --git-common-dir [113ms]
+2025-01-29 14:35:53.869 [info] [Model][openRepository] Opened repository: /var/www/html/TPCSS1
+2025-01-29 14:35:53.956 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [126ms]
+2025-01-29 14:35:53.965 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [154ms]
+2025-01-29 14:35:54.315 [info] > git rev-parse --show-toplevel [414ms]
+2025-01-29 14:35:54.316 [info] > git config --get commit.template [427ms]
+2025-01-29 14:35:54.317 [info] > git config --get commit.template [438ms]
+2025-01-29 14:35:54.374 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [372ms]
+2025-01-29 14:35:54.375 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [385ms]
+2025-01-29 14:35:54.376 [info] > git config --local branch.main.vscode-merge-base [398ms]
+2025-01-29 14:35:54.376 [warning] [Git][config] git config failed: Failed to execute git
+2025-01-29 14:35:54.971 [info] > git reflog main --grep-reflog=branch: Created from *. [577ms]
+2025-01-29 14:35:54.986 [info] > git rev-parse --git-dir --git-common-dir [654ms]
+2025-01-29 14:35:55.014 [info] [Model][openRepository] Opened repository: /var/www/html/TP_js
+2025-01-29 14:35:55.541 [info] > git check-ignore -v -z --stdin [515ms]
+2025-01-29 14:35:55.542 [info] > git check-ignore -v -z --stdin [506ms]
+2025-01-29 14:35:55.543 [info] > git check-ignore -v -z --stdin [485ms]
+2025-01-29 14:35:55.544 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [558ms]
+2025-01-29 14:35:55.548 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-01-29 14:35:55.548 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-01-29 14:35:55.559 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1116ms]
+2025-01-29 14:35:55.560 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1141ms]
+2025-01-29 14:35:55.564 [info] > git fetch [1695ms]
+2025-01-29 14:35:55.902 [info] > git merge-base refs/heads/main refs/remotes/origin/main [344ms]
+2025-01-29 14:35:55.911 [info] > git rev-parse --show-toplevel [612ms]
+2025-01-29 14:35:55.911 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-01-29 14:35:55.924 [info] [Model][doInitialScan] Initial repository scan completed - repositories (4), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-01-29 14:35:55.934 [info] > git config --get commit.template [640ms]
+2025-01-29 14:35:55.935 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [855ms]
+2025-01-29 14:35:56.012 [info] > git show --textconv :tinkercad.txt [84ms]
+2025-01-29 14:35:56.012 [info] > git check-ignore -v -z --stdin [56ms]
+2025-01-29 14:35:56.016 [info] > git check-ignore -v -z --stdin [56ms]
+2025-01-29 14:35:56.017 [info] > git check-ignore -v -z --stdin [52ms]
+2025-01-29 14:35:56.017 [info] > git check-ignore -v -z --stdin [48ms]
+2025-01-29 14:35:56.018 [info] > git config --local branch.main.vscode-merge-base [79ms]
+2025-01-29 14:35:56.028 [info] > git ls-files --stage -- /var/www/html/jalon_tiroire/tinkercad.txt [94ms]
+2025-01-29 14:35:56.035 [info] > git diff --name-status -z --diff-filter=ADMR 807dbbe08bc6856f8a1c9209063fb43d3b63fa59...refs/remotes/origin/main [125ms]
+2025-01-29 14:35:56.036 [info] > git config --get commit.template [151ms]
+2025-01-29 14:35:56.037 [info] > git config --get commit.template [449ms]
+2025-01-29 14:35:56.037 [info] > git fetch [1023ms]
+2025-01-29 14:35:56.057 [info] > git cat-file -s e4425ea19d98d986f5601d526dd1dd08e3907442 [23ms]
+2025-01-29 14:35:56.058 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [31ms]
+2025-01-29 14:35:56.061 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [78ms]
+2025-01-29 14:35:56.067 [info] > git merge-base refs/heads/main refs/remotes/origin/main [91ms]
+2025-01-29 14:35:57.227 [info] > git status -z -uall [1137ms]
+2025-01-29 14:35:57.227 [info] > git config --local branch.main.vscode-merge-base [1161ms]
+2025-01-29 14:35:57.240 [info] > git merge-base refs/heads/main refs/remotes/origin/main [1179ms]
+2025-01-29 14:35:57.248 [info] > git config --get commit.template [1199ms]
+2025-01-29 14:35:57.249 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/exo_java refs/remotes/exo_java [1206ms]
+2025-01-29 14:36:02.285 [info] > git diff --name-status -z --diff-filter=ADMR daac328cff6aa76bb826bcef2156773e3fce06ca...refs/remotes/origin/main [5036ms]
+2025-01-29 14:36:02.287 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [5048ms]
+2025-01-29 14:36:02.289 [info] > git blame --root --incremental 8a212bcf9c7108ff410d1ec00040e46b1445bc1b -- /var/www/html/jalon_tiroire/tinkercad.txt [6133ms]
+2025-01-29 14:36:02.292 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6191ms]
+2025-01-29 14:36:02.293 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6198ms]
+2025-01-29 14:36:02.330 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6248ms]
+2025-01-29 14:36:02.335 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6259ms]
+2025-01-29 14:36:02.336 [info] > git diff --name-status -z --diff-filter=ADMR 807dbbe08bc6856f8a1c9209063fb43d3b63fa59...refs/remotes/origin/main [6265ms]
+2025-01-29 14:36:02.571 [info] > git config --local branch.main.vscode-merge-base [236ms]
+2025-01-29 14:36:02.572 [warning] [Git][config] git config failed: Failed to execute git
+2025-01-29 14:36:02.587 [info] > git config --get commit.template [357ms]
+2025-01-29 14:36:02.619 [info] > git ls-files --stage -- /var/www/html/jalon_tiroire/tinkercad.txt [93ms]
+2025-01-29 14:36:02.644 [info] > git config --get commit.template [149ms]
+2025-01-29 14:36:02.644 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/exo_java refs/remotes/exo_java [171ms]
+2025-01-29 14:36:02.823 [info] > git reflog main --grep-reflog=branch: Created from *. [237ms]
+2025-01-29 14:36:02.930 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/exo_java refs/remotes/exo_java [246ms]
+2025-01-29 14:36:02.938 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [280ms]
+2025-01-29 14:36:02.942 [info] > git cat-file -s e4425ea19d98d986f5601d526dd1dd08e3907442 [296ms]
+2025-01-29 14:36:03.184 [info] > git status -z -uall [292ms]
+2025-01-29 14:36:03.186 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [283ms]
+2025-01-29 14:36:03.200 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [318ms]
+2025-01-29 14:36:03.200 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [329ms]
+2025-01-29 14:36:03.205 [info] > git config --get commit.template [347ms]
+2025-01-29 14:36:03.205 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [362ms]
+2025-01-29 14:36:03.205 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-01-29 14:36:03.205 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-01-29 14:36:03.249 [info] > git show --textconv :tinkercad.txt [18ms]
+2025-01-29 14:36:03.250 [info] > git config --local branch.main.vscode-merge-base [45ms]
+2025-01-29 14:36:03.250 [warning] [Git][config] git config failed: Failed to execute git
+2025-01-29 14:36:03.254 [info] > git config --local branch.exo_java.vscode-merge-base [317ms]
+2025-01-29 14:36:03.255 [warning] [Git][config] git config failed: Failed to execute git
+2025-01-29 14:36:03.278 [info] > git reflog main --grep-reflog=branch: Created from *. [23ms]
+2025-01-29 14:36:03.282 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/exo_java refs/remotes/exo_java [61ms]
+2025-01-29 14:36:03.287 [info] > git merge-base refs/heads/main refs/remotes/Origine/main [76ms]
+2025-01-29 14:36:03.441 [info] > git status -z -uall [143ms]
+2025-01-29 14:36:03.442 [info] > git config --local branch.exo_java.vscode-merge-base [155ms]
+2025-01-29 14:36:03.442 [warning] [Git][config] git config failed: Failed to execute git
+2025-01-29 14:36:03.454 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [173ms]
+2025-01-29 14:36:03.454 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-01-29 14:36:03.454 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-01-29 14:36:03.462 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/exo_java refs/remotes/exo_java [193ms]
+2025-01-29 14:36:03.462 [info] > git reflog exo_java --grep-reflog=branch: Created from *. [201ms]
+2025-01-29 14:36:03.567 [info] > git status -z -uall [36ms]
+2025-01-29 14:36:03.568 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [101ms]
+2025-01-29 14:36:03.568 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-01-29 14:36:03.568 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-01-29 14:36:03.572 [info] > git merge-base refs/heads/main refs/remotes/Origine/main [111ms]
+2025-01-29 14:36:03.578 [info] > git reflog exo_java --grep-reflog=branch: Created from *. [125ms]
+2025-01-29 14:36:03.583 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [278ms]
+2025-01-29 14:36:03.601 [info] > git diff --name-status -z --diff-filter=ADMR e820efb32d5933e1ea774e1268cca360065bac2d...refs/remotes/Origine/main [309ms]
+2025-01-29 14:36:03.608 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [25ms]
+2025-01-29 14:36:03.608 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-01-29 14:36:03.608 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-01-29 14:36:03.613 [info] > git diff --name-status -z --diff-filter=ADMR e820efb32d5933e1ea774e1268cca360065bac2d...refs/remotes/Origine/main [36ms]
+2025-01-29 14:36:03.613 [info] > git merge-base refs/heads/exo_java refs/remotes/origin/exo_java [41ms]
+2025-01-29 14:36:03.624 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [87ms]
+2025-01-29 14:36:04.197 [info] > git diff --name-status -z --diff-filter=ADMR a83aa937ecdfcd53ba08b218ffb775c4c261b268...refs/remotes/origin/exo_java [573ms]
+2025-01-29 14:36:04.199 [info] > git merge-base refs/heads/exo_java refs/remotes/origin/exo_java [587ms]
+2025-01-29 14:36:04.204 [info] > git merge-base refs/heads/main refs/remotes/Origine/main [605ms]
+2025-01-29 14:36:04.302 [info] > git status -z -uall [82ms]
+2025-01-29 14:36:04.302 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [51ms]
+2025-01-29 14:36:04.311 [info] > git diff --name-status -z --diff-filter=ADMR e820efb32d5933e1ea774e1268cca360065bac2d...refs/remotes/Origine/main [99ms]
+2025-01-29 14:36:04.311 [info] > git diff --name-status -z --diff-filter=ADMR a83aa937ecdfcd53ba08b218ffb775c4c261b268...refs/remotes/origin/exo_java [107ms]
+2025-01-29 14:36:23.139 [info] > git check-ignore -v -z --stdin [6ms]

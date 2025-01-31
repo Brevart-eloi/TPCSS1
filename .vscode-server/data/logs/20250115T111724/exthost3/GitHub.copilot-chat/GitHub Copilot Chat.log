@@ -1,0 +1,34 @@
+2025-01-15 11:22:50.624 [info] Can't use the Electron fetcher in this environment.
+2025-01-15 11:22:50.624 [info] Using the Node fetch fetcher.
+2025-01-15 11:22:50.624 [info] Initializing Git extension service.
+2025-01-15 11:22:50.624 [info] Successfully activated the vscode.git extension.
+2025-01-15 11:22:50.624 [info] Enablement state of the vscode.git extension: true.
+2025-01-15 11:22:50.624 [info] Successfully registered Git commit message provider.
+2025-01-15 11:22:51.429 [info] Logged in as Brevart-eloi
+2025-01-15 11:22:52.759 [info] Got Copilot token for Brevart-eloi
+2025-01-15 11:22:53.297 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-01-15 11:22:53.297 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-01-15 11:22:53.330 [info] Registering default platform agent...
+2025-01-15 11:22:59.164 [info] Fetched model metadata in 6375ms f1b5acf8-1b4e-4ed4-8d08-760006db6267
+2025-01-15 11:22:59.174 [info] activationBlocker from 'languageModelAccess' took for 7855ms
+2025-01-15 11:23:19.051 [info] message 0 returned. finish reason: [stop]
+2025-01-15 11:23:19.056 [info] request done: requestId: [0de484be-86c0-4d72-8db7-b3f8b043d163] model deployment ID: []
+2025-01-15 11:23:22.408 [info] message 0 returned. finish reason: [stop]
+2025-01-15 11:23:22.410 [info] request done: requestId: [f3ae4b8c-fabf-46c5-a75c-7b2e32ef35c2] model deployment ID: []
+2025-01-15 11:23:23.298 [info] message 0 returned. finish reason: [stop]
+2025-01-15 11:23:23.301 [info] request done: requestId: [d9b8b047-98c7-4753-9563-4fa6364e55a5] model deployment ID: []
+2025-01-15 11:23:23.316 [info] message 0 returned. finish reason: [stop]
+2025-01-15 11:23:23.317 [info] request done: requestId: [d194b4c4-e005-45bf-9cb2-3326058a4f67] model deployment ID: []
+2025-01-15 11:24:38.091 [info] message 0 returned. finish reason: [stop]
+2025-01-15 11:24:38.097 [info] request done: requestId: [3c936fff-41a7-4a78-ad42-57e86b63eef6] model deployment ID: []
+2025-01-15 11:24:43.571 [info] message 0 returned. finish reason: [stop]
+2025-01-15 11:24:43.577 [info] request done: requestId: [4489dd83-346d-49f8-a43c-dfd5a27c80dc] model deployment ID: []
+2025-01-15 11:34:32.616 [info] Fetched model metadata in 640ms be6b2170-40ea-4eb8-bc99-44119c685348
+2025-01-15 11:34:33.619 [info] message 0 returned. finish reason: [stop]
+2025-01-15 11:34:33.621 [info] request done: requestId: [8bb90215-64d1-42a3-806b-dd6c7dc5e316] model deployment ID: []
+2025-01-15 11:34:37.090 [info] message 0 returned. finish reason: [stop]
+2025-01-15 11:34:37.091 [info] request done: requestId: [0e57726d-a88a-4267-b66f-7d12d32a2507] model deployment ID: []
+2025-01-15 11:47:52.796 [info] Logged in as Brevart-eloi
+2025-01-15 11:47:53.609 [info] Got Copilot token for Brevart-eloi
+2025-01-15 11:47:53.751 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-01-15 11:47:54.459 [info] Fetched model metadata in 682ms e47f1061-2c84-4bbd-9bbd-bc628052efa6

@@ -1,0 +1,5 @@
+Listening on 127.0.0.1:45123
+[2025-01-15 10:16:21] info Disposed of connection to running server.
+[2025-01-15 10:16:21] info Checking /home/debian/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/log.txt and /home/debian/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/pid.txt for a running server...
+[2025-01-15 10:16:21] info Found running server (pid=29077)
+[2025-01-15 10:37:05] info Disposed of connection to running server.

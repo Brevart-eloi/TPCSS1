@@ -1,0 +1,3 @@
+#!/bin/sh
+unset NODE_OPTIONS
+ELECTRON_RUN_AS_NODE=1 "/home/debian/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/node" "/home/debian/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/copilotDebugCommand.js" "vscode://github.copilot-chat" "code --openExternal " "$@"

@@ -1,0 +1,5 @@
+[user]
+	name = Eloi
+	email = tuo@gmail.com
+[safe]
+	directory = /var/www/html

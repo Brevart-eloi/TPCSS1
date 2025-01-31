@@ -1,0 +1,124 @@
+2025-01-22 09:38:05.013 [info] [main] Log level: Info
+2025-01-22 09:38:05.013 [info] [main] Validating found git in: "git"
+2025-01-22 09:38:05.013 [info] [main] Using git "2.30.2" from "git"
+2025-01-22 09:38:05.013 [info] [Model][doInitialScan] Initial repository scan started
+2025-01-22 09:38:05.013 [info] > git rev-parse --show-toplevel [11956ms]
+2025-01-22 09:38:05.073 [info] > git rev-parse --show-toplevel [164ms]
+2025-01-22 09:38:05.111 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (1), unsafe repositories (0)
+2025-01-22 09:42:24.261 [info] > git rev-parse --show-toplevel [6ms]
+2025-01-22 09:42:24.335 [info] > git rev-parse --git-dir --git-common-dir [5ms]
+2025-01-22 09:42:24.393 [info] [Model][openRepository] Opened repository: /home/debian
+2025-01-22 09:42:24.435 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-22 09:42:24.459 [info] > git config --get commit.template [36ms]
+2025-01-22 09:42:24.465 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [32ms]
+2025-01-22 09:42:24.547 [warning] [Git][getBranch] No such branch: master
+2025-01-22 09:42:24.583 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-01-22 09:42:24.704 [info] > git fetch [312ms]
+2025-01-22 09:42:24.742 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [23ms]
+2025-01-22 09:42:24.742 [warning] [Git][getBranch] No such branch: master
+2025-01-22 09:42:24.744 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-01-22 09:42:24.756 [info] > git config --get commit.template [15ms]
+2025-01-22 09:42:24.757 [info] > git config --get commit.template [24ms]
+2025-01-22 09:42:24.768 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-22 09:42:24.775 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-22 09:42:24.791 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [13ms]
+2025-01-22 09:42:24.791 [warning] [Git][getBranch] No such branch: master
+2025-01-22 09:42:24.808 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [41ms]
+2025-01-22 09:42:24.808 [warning] [Git][getBranch] No such branch: master
+2025-01-22 09:42:24.822 [info] > git status -z -uall [259ms] (cancelled)
+2025-01-22 09:42:24.822 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [15ms]
+2025-01-22 09:42:24.917 [info] > git show --textconv :serverweb/server.js [78ms]
+2025-01-22 09:42:24.920 [info] > git ls-files --stage -- /home/debian/serverweb/server.js [73ms]
+2025-01-22 09:42:24.983 [info] > git check-ignore -v -z --stdin [7ms]
+2025-01-22 09:42:25.842 [info] > git ls-files --stage -- /home/debian/serverweb/server.js [11ms]
+2025-01-22 09:42:25.860 [info] > git show --textconv :serverweb/server.js [4ms]
+2025-01-22 09:44:47.768 [info] > git status -z -uall [142971ms] (cancelled)
+2025-01-22 09:45:24.886 [info] > git fetch [53ms]
+2025-01-22 09:45:24.913 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-22 09:45:24.915 [info] > git config --get commit.template [13ms]
+2025-01-22 09:45:24.918 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2025-01-22 09:45:24.918 [warning] [Git][getBranch] No such branch: master
+2025-01-22 09:45:24.962 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [20ms]
+2025-01-22 09:45:29.219 [info] > git status -z -uall [4293ms] (cancelled)
+2025-01-22 09:45:29.267 [info] > git ls-files --stage -- /home/debian/serverweb/server.js [7ms]
+2025-01-22 09:45:29.288 [info] > git show --textconv :serverweb/server.js [4ms]
+2025-01-22 09:50:10.750 [info] > git fetch [11ms]
+2025-01-22 09:50:10.767 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-22 09:50:10.768 [info] > git config --get commit.template [8ms]
+2025-01-22 09:50:10.771 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2025-01-22 09:50:10.771 [warning] [Git][getBranch] No such branch: master
+2025-01-22 09:50:10.802 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [10ms]
+2025-01-22 09:50:13.885 [info] > git status -z -uall [3108ms] (cancelled)
+2025-01-22 09:50:51.229 [info] > git ls-files --stage -- /home/debian/serverweb/server.js [4ms]
+2025-01-22 09:50:51.248 [info] > git show --textconv :serverweb/server.js [4ms]
+2025-01-22 10:16:21.123 [info] > git fetch [138ms]
+2025-01-22 10:16:21.139 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-22 10:16:21.141 [info] > git config --get commit.template [9ms]
+2025-01-22 10:16:21.144 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2025-01-22 10:16:21.144 [warning] [Git][getBranch] No such branch: master
+2025-01-22 10:16:21.164 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [9ms]
+2025-01-22 10:16:25.646 [info] > git status -z -uall [4498ms] (cancelled)
+2025-01-22 10:16:25.789 [info] > git ls-files --stage -- /home/debian/serverweb/server.js [8ms]
+2025-01-22 10:16:25.803 [info] > git show --textconv :serverweb/server.js [3ms]
+2025-01-22 10:27:57.390 [info] > git fetch [13ms]
+2025-01-22 10:27:57.405 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-22 10:27:57.406 [info] > git config --get commit.template [8ms]
+2025-01-22 10:27:57.409 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2025-01-22 10:27:57.409 [warning] [Git][getBranch] No such branch: master
+2025-01-22 10:27:57.428 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-01-22 10:28:01.035 [info] > git status -z -uall [3620ms] (cancelled)
+2025-01-22 10:28:01.076 [info] > git ls-files --stage -- /home/debian/serverweb/server.js [6ms]
+2025-01-22 10:28:01.128 [info] > git show --textconv :serverweb/server.js [3ms]
+2025-01-22 11:04:16.241 [info] > git fetch [110ms]
+2025-01-22 11:04:16.270 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-22 11:04:16.280 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [10ms]
+2025-01-22 11:04:16.281 [warning] [Git][getBranch] No such branch: master
+2025-01-22 11:04:16.282 [info] > git config --get commit.template [21ms]
+2025-01-22 11:04:16.309 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [12ms]
+2025-01-22 11:04:21.060 [info] > git status -z -uall [4773ms] (cancelled)
+2025-01-22 11:04:21.255 [info] > git ls-files --stage -- /home/debian/serverweb/server.js [176ms]
+2025-01-22 11:04:21.271 [info] > git show --textconv :serverweb/server.js [3ms]
+2025-01-22 11:20:56.475 [info] > git fetch [24ms]
+2025-01-22 11:20:56.496 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-22 11:20:56.498 [info] > git config --get commit.template [8ms]
+2025-01-22 11:20:56.500 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2025-01-22 11:20:56.501 [warning] [Git][getBranch] No such branch: master
+2025-01-22 11:20:56.522 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2025-01-22 11:21:00.101 [info] > git status -z -uall [3596ms] (cancelled)
+2025-01-22 11:21:00.205 [info] > git ls-files --stage -- /home/debian/serverweb/server.js [7ms]
+2025-01-22 11:21:00.222 [info] > git show --textconv :serverweb/server.js [3ms]
+2025-01-22 11:30:13.564 [info] > git fetch [15ms]
+2025-01-22 11:30:13.581 [info] > git config --get commit.template [6ms]
+2025-01-22 11:30:13.587 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-22 11:30:13.590 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-01-22 11:30:13.590 [warning] [Git][getBranch] No such branch: master
+2025-01-22 11:30:13.610 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+2025-01-22 11:30:18.509 [info] > git status -z -uall [4913ms] (cancelled)
+2025-01-22 11:30:18.551 [info] > git ls-files --stage -- /home/debian/serverweb/server.js [7ms]
+2025-01-22 11:30:18.566 [info] > git show --textconv :serverweb/server.js [3ms]
+2025-01-22 11:40:48.567 [info] > git fetch [22ms]
+2025-01-22 11:40:48.585 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-22 11:40:48.587 [info] > git config --get commit.template [10ms]
+2025-01-22 11:40:48.590 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2025-01-22 11:40:48.591 [warning] [Git][getBranch] No such branch: master
+2025-01-22 11:40:48.613 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-01-22 11:40:52.113 [info] > git status -z -uall [3517ms] (cancelled)
+2025-01-22 11:40:52.230 [info] > git ls-files --stage -- /home/debian/serverweb/server.js [8ms]
+2025-01-22 11:40:52.247 [info] > git show --textconv :serverweb/server.js [4ms]
+2025-01-22 11:40:57.209 [info] > git check-ignore -v -z --stdin [5ms]
+2025-01-22 11:40:58.985 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat -n50 --skip=0 --topo-order --decorate=full --stdin [100ms]
+2025-01-22 11:40:58.985 [info] fatal: bad revision 'refs/heads/master'
+2025-01-22 11:40:58.987 [error] [GitHistoryProvider][provideHistoryItems] Failed to get history items with options '{"historyItemRefs":["refs/heads/master"],"limit":50,"skip":0}': Failed to execute git {
+  "exitCode": 128,
+  "gitCommand": "log",
+  "stdout": "",
+  "stderr": "fatal: bad revision 'refs/heads/master'\n"
+}
+2025-01-22 11:40:59.489 [info] > git check-ignore -v -z --stdin [5ms]
+2025-01-22 11:57:15.785 [info] > git fetch [25ms]
+2025-01-22 11:57:15.802 [info] > git config --get commit.template [7ms]
+2025-01-22 11:57:15.808 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-22 11:57:15.811 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-01-22 11:57:15.811 [warning] [Git][getBranch] No such branch: master
+2025-01-22 11:57:15.834 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [11ms]
+2025-01-22 11:57:21.159 [info] > git status -z -uall [5343ms] (cancelled)

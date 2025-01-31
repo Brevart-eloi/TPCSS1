@@ -1,0 +1,14 @@
+.container{
+    display: grid;
+    grid-template-areas:
+        "bandeau bandeau bandeau"
+        "menu-haut contenu contenu"
+        "menu-bas contenu contenu"
+        "pieddepage pieddepage pieddepage";
+grid-template-columns: 1fr 2fr 1fr;
+grid-template-rows: auto 1fr 1fr auto;
+}
+
+.Bandeau{
+    
+}

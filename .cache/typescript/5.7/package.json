@@ -1,0 +1,1 @@
+{"private":true,"dependencies":{"types-registry":"^0.1.705"},"devDependencies":{"@types/body-parser":"^1.19.5","@types/cors":"^2.8.17","@types/express":"^5.0.0","@types/merge-descriptors":"^1.0.3","@types/mysql":"^2.15.26","@types/node":"^22.10.5","@types/page":"^1.11.9","@types/serve-static":"^1.15.7"}}

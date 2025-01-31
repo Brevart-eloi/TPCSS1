@@ -1,0 +1,7 @@
+var mavarstr = 'bou';
+var mavarint = prompt('entrez une valeur',100);
+if (mavarstr == 'bou'&& mavarint != 200 || mavarint<=100){
+    alert('je suis le cas 1');// si 
+}else{
+    alert('je suis le cas 2')
+}

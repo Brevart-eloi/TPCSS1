@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test JavaScript</title>
+</head>
+<body>
+    <h1>Redimensionne la fenêtre pour tester !</h1>
+
+    <script>
+        // Fonction qui vérifie la largeur de la fenêtre
+        function checkWindowSize() {
+            if (window.innerWidth < 300) {
+                alert('La largeur de la fenêtre est inférieure à 300px !');
+            }
+        }
+
+        // Ajout d'un écouteur d'événement pour détecter les redimensionnements
+        window.addEventListener('resize', checkWindowSize);
+
+        // Vérifie immédiatement si la fenêtre est déjà inférieure à 300px
+        checkWindowSize();
+    </script>
+</body>
+</html>

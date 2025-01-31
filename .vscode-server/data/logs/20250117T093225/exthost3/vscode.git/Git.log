@@ -1,0 +1,191 @@
+2025-01-17 09:36:13.301 [info] [main] Log level: Info
+2025-01-17 09:36:13.301 [info] [main] Validating found git in: "git"
+2025-01-17 09:36:13.301 [info] [main] Using git "2.30.2" from "git"
+2025-01-17 09:36:13.301 [info] [Model][doInitialScan] Initial repository scan started
+2025-01-17 09:36:13.301 [info] > git rev-parse --show-toplevel [3986ms]
+2025-01-17 09:36:13.544 [info] > git rev-parse --git-dir --git-common-dir [266ms]
+2025-01-17 09:36:13.577 [info] [Model][openRepository] Opened repository: /var/www/html/Reservation_Restaurant
+2025-01-17 09:36:13.596 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-01-17 09:36:13.760 [info] > git config --get commit.template [142ms]
+2025-01-17 09:36:13.795 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [20ms]
+2025-01-17 09:36:13.802 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/var/www/html/Reservation_Restaurant/.git/refs/remotes/origin/main'
+2025-01-17 09:36:14.376 [info] > git check-ignore -v -z --stdin [29ms]
+2025-01-17 09:36:14.384 [info] > git fetch [806ms]
+2025-01-17 09:36:14.385 [info] > git rev-parse refs/remotes/origin/main [583ms]
+2025-01-17 09:36:14.522 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [127ms]
+2025-01-17 09:36:14.588 [info] > git config --get commit.template [179ms]
+2025-01-17 09:36:14.588 [info] > git config --get commit.template [184ms]
+2025-01-17 09:36:14.596 [info] > git config --local branch.main.vscode-merge-base [59ms]
+2025-01-17 09:36:14.899 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [291ms]
+2025-01-17 09:36:14.933 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [308ms]
+2025-01-17 09:36:14.934 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [313ms]
+2025-01-17 09:36:14.938 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/var/www/html/Reservation_Restaurant/.git/refs/remotes/origin/main'
+2025-01-17 09:36:14.943 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/var/www/html/Reservation_Restaurant/.git/refs/remotes/origin/main'
+2025-01-17 09:36:14.953 [info] > git merge-base refs/heads/main refs/remotes/origin/main [47ms]
+2025-01-17 09:36:14.962 [info] > git rev-parse refs/remotes/origin/main [17ms]
+2025-01-17 09:36:14.971 [info] > git rev-parse refs/remotes/origin/main [33ms]
+2025-01-17 09:36:14.990 [info] > git status -z -uall [13ms]
+2025-01-17 09:36:14.995 [info] > git merge-base refs/heads/main refs/remotes/origin/main [26ms]
+2025-01-17 09:36:14.999 [info] > git diff --name-status -z --diff-filter=ADMR 83e41511e348fe6cfd3af505ca87ea93e0b5b545...refs/remotes/origin/main [43ms]
+2025-01-17 09:36:15.023 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [41ms]
+2025-01-17 09:36:15.094 [info] > git diff --name-status -z --diff-filter=ADMR 83e41511e348fe6cfd3af505ca87ea93e0b5b545...refs/remotes/origin/main [95ms]
+2025-01-17 09:36:15.098 [info] > git config --get commit.template [33ms]
+2025-01-17 09:36:15.112 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2025-01-17 09:36:15.115 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/var/www/html/Reservation_Restaurant/.git/refs/remotes/origin/main'
+2025-01-17 09:36:15.249 [info] > git rev-parse refs/remotes/origin/main [134ms]
+2025-01-17 09:36:15.269 [info] > git status -z -uall [16ms]
+2025-01-17 09:36:15.273 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [12ms]
+2025-01-17 09:36:25.062 [info] > git show --textconv :Index.html [93ms]
+2025-01-17 09:36:25.065 [info] > git ls-files --stage -- /var/www/html/Reservation_Restaurant/Index.html [87ms]
+2025-01-17 09:36:25.638 [info] > git cat-file -s d01f779ffe857c350a556704ae244cec10844ce0 [568ms]
+2025-01-17 09:36:26.229 [info] > git config --get commit.template [11ms]
+2025-01-17 09:36:26.232 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2025-01-17 09:36:26.237 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/var/www/html/Reservation_Restaurant/.git/refs/remotes/origin/main'
+2025-01-17 09:36:26.239 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2025-01-17 09:36:26.252 [info] > git status -z -uall [9ms]
+2025-01-17 09:36:26.264 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [13ms]
+2025-01-17 09:40:11.853 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat -n50 --skip=0 --topo-order --decorate=full --stdin [116ms]
+2025-01-17 09:40:12.047 [info] > git fetch [452ms]
+2025-01-17 09:40:12.067 [info] > git config --get commit.template [7ms]
+2025-01-17 09:40:12.068 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2025-01-17 09:40:12.072 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/var/www/html/Reservation_Restaurant/.git/refs/remotes/origin/main'
+2025-01-17 09:40:12.078 [info] > git rev-parse refs/remotes/origin/main [7ms]
+2025-01-17 09:40:12.091 [info] > git status -z -uall [9ms]
+2025-01-17 09:40:12.097 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+2025-01-17 09:40:13.186 [info] > git config --get commit.template [7ms]
+2025-01-17 09:40:13.189 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-01-17 09:40:13.196 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/var/www/html/Reservation_Restaurant/.git/refs/remotes/origin/main'
+2025-01-17 09:40:13.199 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2025-01-17 09:40:13.211 [info] > git status -z -uall [8ms]
+2025-01-17 09:40:13.215 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2025-01-17 09:40:27.790 [info] > git check-ignore -v -z --stdin [3ms]
+2025-01-17 09:40:28.366 [info] > git config --get commit.template [6ms]
+2025-01-17 09:40:28.369 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-01-17 09:40:28.373 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/var/www/html/Reservation_Restaurant/.git/refs/remotes/origin/main'
+2025-01-17 09:40:28.375 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2025-01-17 09:40:28.385 [info] > git status -z -uall [7ms]
+2025-01-17 09:40:28.389 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-01-17 09:40:36.193 [info] > git show --textconv :front/index.html [8ms]
+2025-01-17 09:40:36.203 [info] > git ls-files --stage -- /var/www/html/Reservation_Restaurant/front/index.html [10ms]
+2025-01-17 09:40:36.405 [info] > git check-ignore -v -z --stdin [3ms]
+2025-01-17 09:40:37.029 [info] > git config --get commit.template [7ms]
+2025-01-17 09:40:37.033 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-01-17 09:40:37.037 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/var/www/html/Reservation_Restaurant/.git/refs/remotes/origin/main'
+2025-01-17 09:40:37.040 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2025-01-17 09:40:37.052 [info] > git status -z -uall [9ms]
+2025-01-17 09:40:37.056 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2025-01-17 09:41:29.088 [info] > git check-ignore -v -z --stdin [106ms]
+2025-01-17 09:41:29.089 [info] > git show --textconv :front/page.js [72ms]
+2025-01-17 09:41:29.089 [info] > git ls-files --stage -- /var/www/html/Reservation_Restaurant/front/page.js [60ms]
+2025-01-17 09:41:29.102 [info] > git config --get commit.template [17ms]
+2025-01-17 09:41:29.177 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [43ms]
+2025-01-17 09:41:29.190 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/var/www/html/Reservation_Restaurant/.git/refs/remotes/origin/main'
+2025-01-17 09:41:29.245 [info] > git rev-parse refs/remotes/origin/main [54ms]
+2025-01-17 09:41:29.286 [info] > git status -z -uall [32ms]
+2025-01-17 09:41:29.296 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [27ms]
+2025-01-17 09:41:29.733 [info] > git show --textconv :front/index.html [22ms]
+2025-01-17 09:41:29.744 [info] > git ls-files --stage -- /var/www/html/Reservation_Restaurant/front/index.html [14ms]
+2025-01-17 10:34:35.429 [info] > git fetch [509ms]
+2025-01-17 10:34:35.456 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2025-01-17 10:34:35.457 [info] > git config --get commit.template [19ms]
+2025-01-17 10:34:35.460 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/var/www/html/Reservation_Restaurant/.git/refs/remotes/origin/main'
+2025-01-17 10:34:35.463 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-01-17 10:34:35.475 [info] > git status -z -uall [9ms]
+2025-01-17 10:34:35.484 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [10ms]
+2025-01-17 11:22:01.389 [info] > git config --get commit.template [18ms]
+2025-01-17 11:22:01.401 [info] > git ls-files --stage -- /var/www/html/Reservation_Restaurant/front/index.html [14ms]
+2025-01-17 11:22:01.404 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-01-17 11:22:01.408 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/var/www/html/Reservation_Restaurant/.git/refs/remotes/origin/main'
+2025-01-17 11:22:01.417 [info] > git rev-parse refs/remotes/origin/main [9ms]
+2025-01-17 11:22:01.456 [info] > git status -z -uall [30ms]
+2025-01-17 11:22:01.456 [info] > git show --textconv :front/index.html [12ms]
+2025-01-17 11:22:01.459 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [23ms]
+2025-01-17 11:22:01.698 [info] > git fetch [600ms]
+2025-01-17 11:22:01.710 [info] > git config --get commit.template [6ms]
+2025-01-17 11:22:01.713 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-01-17 11:22:01.716 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/var/www/html/Reservation_Restaurant/.git/refs/remotes/origin/main'
+2025-01-17 11:22:01.723 [info] > git rev-parse refs/remotes/origin/main [7ms]
+2025-01-17 11:22:01.871 [info] > git status -z -uall [144ms]
+2025-01-17 11:22:01.878 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [142ms]
+2025-01-17 11:22:02.996 [info] > git ls-files --stage -- /var/www/html/Reservation_Restaurant/front/index.html [4ms]
+2025-01-17 11:22:03.009 [info] > git show --textconv :front/index.html [2ms]
+2025-01-17 11:22:43.539 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat -n50 --skip=0 --topo-order --decorate=full --stdin [7ms]
+2025-01-17 11:22:46.133 [info] > git add -A -- /var/www/html/Reservation_Restaurant/Index.html /var/www/html/Reservation_Restaurant/front/index.html /var/www/html/Reservation_Restaurant/front/page.js [9ms]
+2025-01-17 11:22:46.148 [info] > git config --get commit.template [7ms]
+2025-01-17 11:22:46.151 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-01-17 11:22:46.155 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/var/www/html/Reservation_Restaurant/.git/refs/remotes/origin/main'
+2025-01-17 11:22:46.158 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2025-01-17 11:22:46.181 [info] > git status -z -uall [16ms]
+2025-01-17 11:22:46.186 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [11ms]
+2025-01-17 11:22:46.519 [info] > git show --textconv HEAD:front/index.html [6ms]
+2025-01-17 11:22:46.523 [info] > git ls-tree -l HEAD -- /var/www/html/Reservation_Restaurant/front/index.html [4ms]
+2025-01-17 11:22:47.269 [info] > git config --get commit.template [7ms]
+2025-01-17 11:22:47.272 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-01-17 11:22:47.282 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/var/www/html/Reservation_Restaurant/.git/refs/remotes/origin/main'
+2025-01-17 11:22:47.287 [info] > git rev-parse refs/remotes/origin/main [5ms]
+2025-01-17 11:22:47.307 [info] > git status -z -uall [12ms]
+2025-01-17 11:22:47.312 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2025-01-17 11:22:47.407 [info] > git ls-files --stage -- /var/www/html/Reservation_Restaurant/front/index.html [11ms]
+2025-01-17 11:22:47.416 [info] > git ls-tree -l HEAD -- /var/www/html/Reservation_Restaurant/front/index.html [14ms]
+2025-01-17 11:22:47.419 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [6ms]
+2025-01-17 11:22:47.459 [info] > git show --textconv HEAD:front/index.html [7ms]
+2025-01-17 11:22:47.463 [info] > git show --textconv :front/index.html [5ms]
+2025-01-17 11:22:54.116 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [25ms]
+2025-01-17 11:22:54.134 [info] > git config --get commit.template [11ms]
+2025-01-17 11:22:54.149 [info] > git config --get commit.template [7ms]
+2025-01-17 11:22:54.152 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-01-17 11:22:54.157 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/var/www/html/Reservation_Restaurant/.git/refs/remotes/origin/main'
+2025-01-17 11:22:54.159 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-01-17 11:22:54.176 [info] > git status -z -uall [9ms]
+2025-01-17 11:22:54.187 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [16ms]
+2025-01-17 11:22:54.214 [info] > git merge-base refs/heads/main refs/remotes/origin/main [12ms]
+2025-01-17 11:22:54.227 [info] > git diff --name-status -z --diff-filter=ADMR 83e41511e348fe6cfd3af505ca87ea93e0b5b545...refs/remotes/origin/main [9ms]
+2025-01-17 11:22:54.276 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat -n50 --skip=0 --topo-order --decorate=full --stdin [17ms]
+2025-01-17 11:22:54.279 [info] > git config --get commit.template [6ms]
+2025-01-17 11:22:54.286 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-01-17 11:22:54.290 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/var/www/html/Reservation_Restaurant/.git/refs/remotes/origin/main'
+2025-01-17 11:22:54.293 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2025-01-17 11:22:54.304 [info] > git status -z -uall [7ms]
+2025-01-17 11:22:54.307 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-01-17 11:22:56.567 [info] > git log --oneline --cherry main...main@{upstream} -- [5ms]
+2025-01-17 11:22:56.600 [info] > git ls-files --stage -- /var/www/html/Reservation_Restaurant/front/index.html [8ms]
+2025-01-17 11:22:56.621 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [9ms]
+2025-01-17 11:22:56.660 [info] > git show --textconv :front/index.html [13ms]
+2025-01-17 11:22:57.119 [info] > git pull --tags origin main [539ms]
+2025-01-17 11:22:57.120 [info] hint: Pulling without specifying how to reconcile divergent branches is
+hint: discouraged. You can squelch this message by running one of the following
+hint: commands sometime before your next pull:
+hint: 
+hint:   git config pull.rebase false  # merge (the default strategy)
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint: 
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+From https://github.com/DumeS0108/Reservation_Restaurant
+ * branch            main       -> FETCH_HEAD
+2025-01-17 11:22:58.196 [info] > git push origin main:main [1072ms]
+2025-01-17 11:22:58.196 [info] To https://github.com/DumeS0108/Reservation_Restaurant.git
+   83e4151..a39db27  main -> main
+2025-01-17 11:22:58.212 [info] > git config --get commit.template [7ms]
+2025-01-17 11:22:58.215 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-01-17 11:22:58.228 [info] > git status -z -uall [9ms]
+2025-01-17 11:22:58.232 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-01-17 11:22:58.265 [info] > git merge-base refs/heads/main refs/remotes/origin/main [7ms]
+2025-01-17 11:22:58.274 [info] > git diff --name-status -z --diff-filter=ADMR a39db27a85fa516689c87a194e8882079fd1d134...refs/remotes/origin/main [5ms]
+2025-01-17 11:22:58.290 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat -n50 --skip=0 --topo-order --decorate=full --stdin [4ms]
+2025-01-17 11:22:58.314 [info] > git ls-files --stage -- /var/www/html/Reservation_Restaurant/front/index.html [2ms]
+2025-01-17 11:22:58.320 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [3ms]
+2025-01-17 11:22:58.333 [info] > git show --textconv :front/index.html [3ms]
+2025-01-17 11:22:59.333 [info] > git config --get commit.template [10ms]
+2025-01-17 11:22:59.336 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-01-17 11:22:59.347 [info] > git status -z -uall [7ms]
+2025-01-17 11:22:59.350 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-01-17 11:22:59.438 [info] > git ls-files --stage -- /var/www/html/Reservation_Restaurant/front/index.html [9ms]
+2025-01-17 11:22:59.448 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [3ms]
+2025-01-17 11:22:59.462 [info] > git show --textconv :front/index.html [3ms]
+2025-01-17 11:23:00.552 [info] > git ls-files --stage -- /var/www/html/Reservation_Restaurant/front/index.html [2ms]
+2025-01-17 11:23:00.558 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [3ms]
+2025-01-17 11:23:00.572 [info] > git show --textconv :front/index.html [4ms]

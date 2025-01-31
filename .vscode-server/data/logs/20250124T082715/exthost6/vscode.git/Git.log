@@ -1,0 +1,59 @@
+2025-01-24 10:56:47.079 [info] [main] Log level: Info
+2025-01-24 10:56:47.079 [info] [main] Validating found git in: "git"
+2025-01-24 10:56:47.079 [info] [main] Using git "2.30.2" from "git"
+2025-01-24 10:56:47.079 [info] [Model][doInitialScan] Initial repository scan started
+2025-01-24 10:56:47.079 [info] > git rev-parse --show-toplevel [1240ms]
+2025-01-24 10:56:47.079 [info] > git rev-parse --git-dir --git-common-dir [3804ms]
+2025-01-24 10:56:47.079 [info] [Model][openRepository] Opened repository: /home/debian
+2025-01-24 10:56:47.079 [info] > git fetch [2203ms]
+2025-01-24 10:56:47.597 [info] > git rev-parse --show-toplevel [799ms]
+2025-01-24 10:56:47.639 [info] > git config --get commit.template [873ms]
+2025-01-24 10:56:47.993 [info] > git check-ignore -v -z --stdin [156ms]
+2025-01-24 10:56:48.023 [info] > git config --get commit.template [701ms]
+2025-01-24 10:56:48.062 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-24 10:56:48.461 [info] > git rev-parse --show-toplevel [591ms]
+2025-01-24 10:56:48.488 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-24 10:56:48.707 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [647ms]
+2025-01-24 10:56:48.708 [warning] [Git][getBranch] No such branch: master
+2025-01-24 10:56:48.994 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [247ms]
+2025-01-24 10:56:48.994 [warning] [Git][getBranch] No such branch: master
+2025-01-24 10:56:48.995 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-01-24 10:56:48.997 [info] > git rev-parse --show-toplevel [498ms]
+2025-01-24 10:56:49.002 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [513ms]
+2025-01-24 10:56:49.002 [warning] [Git][getBranch] No such branch: master
+2025-01-24 10:56:50.600 [info] > git config --get commit.template [1833ms]
+2025-01-24 10:56:50.626 [info] > git rev-parse --show-toplevel [137ms]
+2025-01-24 10:56:50.634 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-24 10:56:50.691 [info] > git rev-parse --show-toplevel [43ms]
+2025-01-24 10:56:50.692 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [58ms]
+2025-01-24 10:56:50.692 [warning] [Git][getBranch] No such branch: master
+2025-01-24 10:56:50.992 [info] > git rev-parse --show-toplevel [233ms]
+2025-01-24 10:56:51.010 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [274ms]
+2025-01-24 10:56:51.711 [info] > git rev-parse --show-toplevel [670ms]
+2025-01-24 10:56:52.373 [info] > git rev-parse --show-toplevel [602ms]
+2025-01-24 10:56:57.602 [info] > git status -z -uall [6890ms] (cancelled)
+2025-01-24 10:56:57.695 [info] > git rev-parse --show-toplevel [196ms]
+2025-01-24 10:56:57.718 [info] > git check-ignore -v -z --stdin [59ms]
+2025-01-24 10:56:57.722 [info] > git rev-parse --show-toplevel [13ms]
+2025-01-24 10:56:57.744 [info] > git rev-parse --show-toplevel [15ms]
+2025-01-24 10:56:57.756 [info] > git rev-parse --show-toplevel [6ms]
+2025-01-24 10:56:57.758 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-01-24 10:56:57.783 [info] > git show --textconv :serverweb/server.js [18ms]
+2025-01-24 10:56:57.790 [info] > git ls-files --stage -- /home/debian/serverweb/server.js [14ms]
+2025-01-24 10:57:15.251 [info] > git config --get commit.template [189ms]
+2025-01-24 10:57:15.270 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-24 10:57:15.284 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [15ms]
+2025-01-24 10:57:15.284 [warning] [Git][getBranch] No such branch: master
+2025-01-24 10:57:15.322 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [17ms]
+2025-01-24 10:57:15.859 [info] > git status -z -uall [567ms] (cancelled)
+2025-01-24 10:57:15.874 [info] > git check-ignore -v -z --stdin [16ms]
+2025-01-24 10:57:16.403 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-24 10:57:16.405 [info] > git config --get commit.template [11ms]
+2025-01-24 10:57:16.408 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2025-01-24 10:57:16.408 [warning] [Git][getBranch] No such branch: master
+2025-01-24 10:57:16.434 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [9ms]
+2025-01-24 10:57:16.660 [info] > git show --textconv :serverweb/server.js [31ms]
+2025-01-24 10:57:16.661 [info] > git ls-files --stage -- /home/debian/serverweb/server.js [16ms]
+2025-01-24 10:57:16.826 [info] > git status -z -uall [412ms] (cancelled)
+2025-01-24 10:57:16.828 [info] > git check-ignore -v -z --stdin [9ms]
+2025-01-24 10:57:17.105 [info] > git check-ignore -v -z --stdin [14ms]

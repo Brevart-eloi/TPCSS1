@@ -1,0 +1,49 @@
+
+#bdcyan {
+    background-color: 
+    rgb(7, 185, 255);
+      text-align: center;
+      padding: 1px;
+    }
+    #bdjaune {
+        margin-left: 10%;
+        background-color: 
+        rgb(238, 234, 11);
+          text-align: center;
+          padding: 25px;
+        }
+  #bdvertcl {
+    background-color: 
+    rgb(36, 196, 129);
+    text-align: center;
+    padding: 1%;
+
+    }
+    #bdvert {
+      background-color: 
+      rgba(124, 248, 8, 0.692);
+      text-align: center;
+      float: left;
+      width: 10%;
+      height: 250px;
+      }
+    #bdrouge {
+        background-color: 
+        rgba(240, 6, 6, 0.89);
+        text-align: center;
+        padding: 1%;
+        float: right;
+        width: 7%;
+      height: 5%;
+        
+    }
+    #bdrose {
+        margin-right: 90%;
+        background-color: 
+        rgba(241, 144, 220, 0.89);
+        text-align: center;
+        float: left;
+        width: 10%;
+        height: 250px;
+        
+    }

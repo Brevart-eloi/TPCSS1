@@ -1,0 +1,32 @@
+.div1 {
+    width: 200px;
+    height: 200px;
+    background-color: royalblue;
+  }
+  .div2 {
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+  }
+  .div3 {
+    width: 200px;
+    height: 200px;
+    background-color: mediumslateblue;
+  }
+  .div4 {
+    width: 200px;
+    height: 200px;
+    background-color: skyblue;
+  }
+  .div5{
+    width: 200px;
+    height: 200px;
+    background-color: violet
+  }
+  .bloc{
+    height:200px;
+    top: 15px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }

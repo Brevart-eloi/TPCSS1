@@ -1,0 +1,37 @@
+2025-01-22 09:38:05.856 [info] Can't use the Electron fetcher in this environment.
+2025-01-22 09:38:05.856 [info] Using the Node fetch fetcher.
+2025-01-22 09:38:05.856 [info] Initializing Git extension service.
+2025-01-22 09:38:05.856 [info] Successfully activated the vscode.git extension.
+2025-01-22 09:38:05.856 [info] Enablement state of the vscode.git extension: true.
+2025-01-22 09:38:05.856 [info] Successfully registered Git commit message provider.
+2025-01-22 09:38:07.241 [info] Logged in as Brevart-eloi
+2025-01-22 09:38:08.494 [info] Got Copilot token for Brevart-eloi
+2025-01-22 09:38:09.153 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-01-22 09:38:09.153 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-01-22 09:38:09.259 [info] Registering default platform agent...
+2025-01-22 09:38:16.047 [info] Fetched model metadata in 7454ms 62273418-61d1-4423-b4de-8047394033ec
+2025-01-22 09:38:16.079 [info] activationBlocker from 'languageModelAccess' took for 10419ms
+2025-01-22 09:43:07.985 [info] message 0 returned. finish reason: [stop]
+2025-01-22 09:43:08.128 [info] request done: requestId: [e140f631-75df-4478-aed0-21fca682b692] model deployment ID: []
+2025-01-22 09:53:36.969 [info] Fetched model metadata in 666ms edb277a7-06f3-415f-8006-9eaef24bfdc2
+2025-01-22 10:03:26.752 [info] Logged in as Brevart-eloi
+2025-01-22 10:03:27.677 [info] Got Copilot token for Brevart-eloi
+2025-01-22 10:03:27.741 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-01-22 10:18:28.488 [info] Fetched model metadata in 696ms 0a68ca47-c696-468b-a425-9142a4411e25
+2025-01-22 10:28:27.724 [info] Logged in as Brevart-eloi
+2025-01-22 10:28:28.636 [info] Got Copilot token for Brevart-eloi
+2025-01-22 10:28:28.760 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-01-22 10:28:29.571 [info] Fetched model metadata in 726ms c9ab104e-0347-41ca-8e58-de294ea2ee6a
+2025-01-22 10:43:30.264 [info] Fetched model metadata in 663ms 56ebac32-2f7b-4497-bd4c-4365bfa5b186
+2025-01-22 10:53:28.666 [info] Logged in as Brevart-eloi
+2025-01-22 10:53:29.643 [info] Got Copilot token for Brevart-eloi
+2025-01-22 10:53:29.701 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-01-22 11:08:30.432 [info] Fetched model metadata in 674ms b7f41881-08c3-4b1d-a869-361fd598506d
+2025-01-22 11:18:29.672 [info] Logged in as Brevart-eloi
+2025-01-22 11:18:30.514 [info] Got Copilot token for Brevart-eloi
+2025-01-22 11:18:30.611 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-01-22 11:18:31.262 [info] Fetched model metadata in 629ms 5b24d239-c3a3-4466-ba9a-e940e2a718d9
+2025-01-22 11:33:31.980 [info] Fetched model metadata in 680ms 7a33764d-ed79-41bb-abd2-9216e7166a3c
+2025-01-22 11:43:30.544 [info] Logged in as Brevart-eloi
+2025-01-22 11:43:31.554 [info] Got Copilot token for Brevart-eloi
+2025-01-22 11:43:31.623 [info] copilot token chat_enabled: true, sku: free_limited_copilot

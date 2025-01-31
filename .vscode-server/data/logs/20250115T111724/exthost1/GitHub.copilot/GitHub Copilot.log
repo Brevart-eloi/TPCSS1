@@ -1,0 +1,4 @@
+2025-01-15 11:17:49.097 [info] [certificates] Removed 10 expired certificates
+2025-01-15 11:17:51.633 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
+2025-01-15 11:17:53.065 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
+2025-01-15 11:17:53.067 [info] [code-referencing] Public code references are enabled.
